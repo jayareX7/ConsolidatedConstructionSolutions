@@ -6,33 +6,31 @@ import { getSortedPostsData } from "@library/posts";
 import { getSortedProjectsData } from "@library/projects";
 
 import AboutSection from "@components/sections/About";
+import About2Section from "@components/sections/About2";
 import ServicesSection from "@components/sections/Services";
 import CountersSection from "@components/sections/Counters";
+import ProjectsListSection from "@components/sections/ProjectsList";
 import FeaturesSection from "@components/sections/Features";
 import RenovationSection from "@components/sections/Renovation";
-import LatestPostsSection from "@components/sections/LatestPosts";
+import EstimatedPriceSection from "@components/sections/EstimatedPrice";
 
 const HeroSlider = dynamic( () => import("@components/sliders/Hero"), { ssr: false } );
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const ProjectsSlider = dynamic( () => import("@components/sliders/Projects"), { ssr: false } );
-const TeamSlider = dynamic( () => import("@components/sliders/Team"), { ssr: false } );
 
 const Home1 = (props) => {
   return (
     <Layouts transparent>
       <>
-        <HeroSlider />
+        <HeroSlider />        
+        <AboutSection />   
         <ServicesSection />
-        <AboutSection />
+        <About2Section />
         <CountersSection />
-        <ProjectsSlider projects={props.projects} />
-        <TeamSlider />
+        <ProjectsListSection projects={props.projects} />
         <FeaturesSection />
         <PartnersSlider />
         <RenovationSection />
-        <TestimonialSlider />
-        <LatestPostsSection posts={props.posts} />
+        <EstimatedPriceSection />
       </>
     </Layouts>
   );
