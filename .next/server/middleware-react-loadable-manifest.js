@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"index.jsx -> @components/sliders/Hero":{"id":"index.jsx -> @components/sliders/Hero","files":["static/chunks/src_components_sliders_Hero_jsx.js"]},"index.jsx -> @components/sliders/Partners":{"id":"index.jsx -> @components/sliders/Partners","files":["static/chunks/src_components_sliders_Partners_jsx.js"]}}
