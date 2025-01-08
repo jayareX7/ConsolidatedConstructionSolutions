@@ -2817,6 +2817,7 @@ span.counter {
     font-weight: 900;
     margin-bottom: 17px;
     font-family: $font-1;
+    color: $accent-1
 }
 .our-goal .data.p2 {
     margin-top: 43px;
@@ -2829,7 +2830,9 @@ span.counter {
     line-height: 26px;
     position: relative;
 }
-.our-goal .data h4,
+.our-goal .data h4 {
+    color: $accent-1;
+}
 .our-goal .data ul li {
     color: $text-color;
 }
