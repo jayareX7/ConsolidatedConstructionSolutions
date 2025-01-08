@@ -2,9 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/leadership": "pages/leadership.js",
-  "/history": "pages/history.js",
-  "/team": "pages/team.js",
-  "/core-values": "pages/core-values.js",
-  "/about": "pages/about.js"
+  "/projects": "pages/projects.js",
+  "/about": "pages/about.js",
+  "/": "pages/index.js"
 }

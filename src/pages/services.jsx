@@ -6,12 +6,13 @@ import Tab from 'react-bootstrap/Tab';
 import Link from "next/link";
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.css';
+import ContactForm2Section from "@components/sections/ContactForm2";
 
 import { getSortedServicesData } from "@library/services";
 
-import CallToActionSection from "@components/sections/CallToAction";
+
 import ServicesSection from "@components/sections/Services";
-import CountersSection from "@components/sections/Counters";
+
 
 const Services = (props) => {
   const [isOpen, setOpen] = useState(false);
@@ -104,7 +105,6 @@ const Services = (props) => {
       </section>
       {/* Construction Services End */}
 
-      <CountersSection />
 
       {/* Video PopUp Start */}
       <div className="video-popup">
@@ -152,8 +152,7 @@ const Services = (props) => {
       </section>
       {/* Service Style Two End */}
       
-      <CallToActionSection />
-      
+      <ContactForm2Section />
     </Layouts>
   );
 };

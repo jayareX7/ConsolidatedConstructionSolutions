@@ -7,27 +7,7 @@ const DefaultFooter = () => {
         <div className="footer-p-1">
         <div className="container">
             <div className="row">
-            <div className="footer-first">
-                <div className="footer-logo">
-                    <Link href="/">
-                        <img src={appData.footer.logo.image} alt={appData.footer.logo.alt} />
-                    </Link>
-                </div>
-                <div className="contact-info d-flex-all">
-                    <div className="images d-flex-all justify-content-start">
-                        <figure>
-                            <img src="/img/blog-author-img.jpg" alt="Contact Images" />
-                        </figure>
-                        <figure>
-                            <img src="/img/blog-author-img-2.jpg" alt="Contact Images" />
-                        </figure>
-                    </div>
-                    <p>Sales representative <span>+1 (251) 344 0 66</span> free call !</p>
-                </div>
-                <Link href="/contact" className="theme-btn">
-                    Get a Consultation <i className="fa-solid fa-angles-right" />
-                </Link>
-            </div>
+           
             </div>
         </div>
         </div>

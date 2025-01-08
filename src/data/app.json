@@ -25,33 +25,7 @@
             {
                 "label": "About",
                 "link": "/about",
-                "children": [
-                    {
-                        "label": "About Company",
-                        "link": "/about",
-                        "children": 0
-                    },
-                    {
-                        "label": "Core Values",
-                        "link": "/core-values",
-                        "children": 0
-                    },
-                    {
-                        "label": "Leadership",
-                        "link": "/leadership",
-                        "children": 0
-                    },
-                    {
-                        "label": "History",
-                        "link": "/history",
-                        "children": 0
-                    },
-                    {
-                        "label": "Team",
-                        "link": "/team",
-                        "children": 0
-                    }
-                ]
+                "children": 0
             },
             {
                 "label": "Projects",
