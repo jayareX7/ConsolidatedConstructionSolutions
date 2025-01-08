@@ -975,8 +975,7 @@ button.scrollTopStick.active:before {
     border-radius: 100%;
 }
 button.scrollTopStick i {
-    color: $white;
-    mix-blend-mode: difference;
+    color: $black;
     -webkit-font-smoothing: antialiased;
 }
 button.scrollTopStick:hover i {
@@ -1119,10 +1118,12 @@ button.scrollTopStick:hover i {
     font-size: $text-sm;
     line-height: 26px;
     font-family: $font-1;
+    color: $accent-1;
 }
 .about-style-one .about-data-right .about-info h3 {
     font-weight: bold;
     margin-top: 13px;
+    color: $accent-1;
 }
 /* 3. About Style One End */
 
@@ -1140,11 +1141,11 @@ button.scrollTopStick:hover i {
 }
 .counter-style-one .counter-data .count {
     font-size: 85px;
-    color: #080808;
+    color: $grey;
     font-family: $font-1;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #080808;
+    -webkit-text-stroke-color: $grey;
     position: relative;
     line-height: 105px;
     display: flex;
@@ -1155,8 +1156,8 @@ span.counter {
 .counter-style-one .counter-data .count i {
     font-size: $text-sm;
     font-weight: 900;
-    color: #161616;
-    -webkit-text-fill-color: #161616;
+    color: $black;
+    -webkit-text-fill-color: $black;
     -webkit-text-stroke-width: 0;
     text-transform: uppercase;
     line-height: 26px;
@@ -1168,7 +1169,7 @@ span.counter {
     font-size: $text-sm;
     font-weight: 400;
     font-family: $font-1;
-    color: #161616;
+    color: $black;
 }
 .counter-style-one .counter-data:before {
     content: "";
@@ -1438,6 +1439,7 @@ span.counter {
 }
 .team-style-one .team-slider-nav button i {
     font-size: $text-sm;
+    color: $black;
 }
 .team-style-one .team-slider-nav {
     text-align: right;
@@ -1648,7 +1650,7 @@ span.counter {
 }
 .core-features button.accordion-button {
     font-size: $text-md;
-    color: #000 !important;
+    color: $grey !important;
     height: 60px;
     clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);
     padding: 0 25px;
@@ -1840,11 +1842,12 @@ span.counter {
 .client-review-style-one .head-review h3 {
     font-size: $text-lg;
     margin-bottom: 55px;
+    color: $black;
 }
 .client-review-slider .slider-data p {
     font-size: $text-md;
     line-height: 36px;
-    color: #161616;
+    color: $grey;
     width: 85%;
 }
 .client-review-slider .slider-data .bio .icon {
@@ -1858,7 +1861,7 @@ span.counter {
 }
 .client-review-slider .slider-data .bio .details h3 {
     font-size: 24px;
-    color: #161616;
+    color: $grey;
     margin-bottom: 0;
     font-family: $font-1;
     font-weight: bold;
@@ -2027,7 +2030,7 @@ span.counter {
 
 /* 13. Footer Style One Start */
 .footer-style-one .footer-p-1 {
-    background-color: #232222;
+    background-color: $grey;
     padding: 30px 0;
 }
 .contact-info .images img {
@@ -2061,6 +2064,7 @@ span.counter {
 .footer-style-one .footer-p-2,
 .footer-style-one .footer-p-3 {
     background-color: $black;
+    color: $accent-1;
 }
 .footer-style-one .footer-p-2 .footer-col h3 {
     color: $white;
@@ -2075,7 +2079,7 @@ span.counter {
 }
 .footer-style-one .footer-p-2 .footer-col p,
 .footer-style-one .footer-p-3 .footer-col p  {
-    color: #b7b7b7;
+    color: $white;
 }
 .footer-style-one .footer-p-2 .footer-col ul li svg {
     width: 20px;
@@ -2101,14 +2105,14 @@ span.counter {
 }
 .footer-style-one .footer-p-2 .footer-col form input {
     height: 70px;
-    background-color: #232222;
+    background-color: $accent-1;
     width: 100%;
     border: 0;
     padding-left: 30px;
-    color: #b7b7b7;
+    color: $grey;
 }
 .footer-style-one .footer-p-2 .footer-col form input::placeholder {
-    color: #b7b7b7;
+    color: $grey;
 }
 .footer-style-one .footer-p-2 .footer-col form button {
     width: 60px;
@@ -2130,7 +2134,7 @@ span.counter {
     position: absolute;
     left: 0;
     right: 0;
-    border: 2px solid;
+    border: 2px solid $accent-2;
     z-index: -1;
     transform: skew(-20deg, 0deg);
 }
@@ -2138,7 +2142,7 @@ span.counter {
     background: transparent;
 }
 .footer-style-one .footer-p-2 .footer-col form button i {
-    color: $black;
+    color: $white;
     transform: rotate(90deg);
     font-size: $text-md;
 }
@@ -2153,7 +2157,7 @@ span.counter {
     font-family: $font-1;
     font-size: $text-sm;
     line-height: 30px;
-    color: #b7b7b7;
+    color: $accent-1;
     position: relative;
 }
 .footer-style-one .footer-p-3 .footer-col a:before,
@@ -2575,12 +2579,13 @@ span.counter {
 .mobile-nav.desktop-menu .social-medias a,
 .mobile-nav.desktop-menu p,
 .mobile-nav.desktop-menu .des {
-    color: $black;
+    color: $grey;
 }
 .mobile-nav.desktop-menu .social-medias a {
     font-size: $text-sm;
     position: relative;
     margin-right: 30px;
+    color: $black;
 }
 .mobile-nav.desktop-menu .social-medias {
     margin-top: 23px;
@@ -2594,7 +2599,7 @@ span.counter {
     left: 0;
 }
 .mobile-nav.desktop-menu .social-medias a:before {
-    border-bottom: 1px solid #6a6a6a;
+    border-bottom: 1px solid $white;
     width: 100%;
 }
 .mobile-nav.desktop-menu .social-medias a:after {
@@ -2608,6 +2613,7 @@ span.counter {
     font-size: $text-md;
     margin-top: 25px;
     margin-bottom: 12px;
+    color: $black;
 }
 .mobile-nav.desktop-menu .des {
     font-size: $text-xs;
@@ -2834,7 +2840,7 @@ span.counter {
     content: "";
     width: 8px;
     height: 8px;
-    border: 2px solid $text-color;
+    border: 2px solid $accent-1;
     background: $white;
     position: absolute;
     left: -30px;
@@ -4230,7 +4236,7 @@ span.counter {
     color: #bdbdbd;
 }
 .contact-form-one .select-wrapper:before {
-    background: #3e3e3e;
+    background: $accent-1;
 }
 .contact-form-one .select-wrapper:after {
     border-bottom: 3px solid $white;
@@ -4385,7 +4391,7 @@ span.counter {
 .banner-style-one .breadcrums ul li i,
 .banner-style-one .breadcrums ul li p,
 .banner-style-one .breadcrums ul li a {
-    color: #c2c1c1;
+    color: $accent-1;
 }
 .banner-style-one .breadcrums ul li a {
     display: flex;
@@ -4397,7 +4403,7 @@ span.counter {
 .banner-style-one .breadcrums ul li p {
     line-height: 13px;
     margin-left: 8px;
-    border-bottom: 1px solid #717070;
+    border-bottom: 1px solid $grey;
 }
 .banner-style-one .breadcrums ul li.current p {
     font-weight: bold;
@@ -4433,7 +4439,7 @@ span.counter {
 }
 .about-first .who-we-are ul li i {
     font-size: $text-xs;
-    color: #c9c9c9;
+    color: $accent-1;
     margin-right: 8px;
 }
 .about-first .who-we-are ul {
@@ -4572,6 +4578,7 @@ span.counter {
 .contact-form-2 .info ul.contact li h3,
 .contact-form-2 .info ul.social-medias li p {
     font-weight: bold;
+    color: $black;
 }
 .contact-form-2 .bio .data img.author {
     width: 110px;
@@ -4766,7 +4773,7 @@ ul.social-medias {
     font-size: 18px;
     font-weight: bold;
     font-family: $font-1;
-    color: #161616;
+    color: $grey;
 }
 /* 39. Innovation End */
 
@@ -5154,7 +5161,7 @@ ul.social-medias {
 .what-we-build .heading-style-2 .data span,
 .what-we-build .wwb-ul li .location span,
 .what-we-build .wwb-ul li:before {
-    color: #c4c4c4;
+    color: $accent-3;
 }
 .what-we-build .wwb-ul li h3 {
     font-size: 22px;
@@ -5163,7 +5170,7 @@ ul.social-medias {
     margin-right: 100px;
 }
 .what-we-build .wwb-ul li h3 a {
-    color: #757575;
+    color: $accent-1;
 }
 .what-we-build .wwb-ul li.active h3 a {
     color: $white;
@@ -5280,7 +5287,7 @@ ul.social-medias {
     content: "";
     width: 10px;
     height: 10px;
-    border: 2px solid $text-color;
+    border: 2px solid $accent-1;
     position: absolute;
     border-radius: 100%;
     left: -20px;
@@ -5357,6 +5364,7 @@ ul.social-medias {
 }
 .detail-page .include li i {
     margin-right: 10px;
+    color: $accent-1;
 }
 .project-d-detail .icon svg,
 .project-d-detail .icon img {
@@ -6932,7 +6940,7 @@ img.light-icon {
     display: block;
 }
 .mobile-nav.desktop-menu h2{
-    color: #222;
+    color: $black;
 }
 
 /* image popup */
