@@ -1,6 +1,7 @@
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
 
+
 const E404 = () => {
   return (
     <Layouts noFooter>

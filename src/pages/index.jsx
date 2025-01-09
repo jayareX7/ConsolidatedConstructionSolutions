@@ -2,6 +2,7 @@ import React from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
 
+
 import { getSortedProjectsData } from "@library/projects";
 
 import AboutSection from "@components/sections/About";
