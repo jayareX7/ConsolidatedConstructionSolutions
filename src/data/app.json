@@ -1,6 +1,6 @@
 {
     "settings": {
-        "siteName": "Builty",
+        "siteName": "Consolidated Construction Solution",
         "preloader": {
             "image": "/img/Builty-Logo-Black-Home.svg",
             "alt": "logo"
@@ -13,7 +13,7 @@
     },
     "header": {
         "logo": {
-            "image": "/img/Builty-Logo.svg",
+            "image": "/img/CCS-Logo.svg",
             "alt": "logo"
         },
         "menu": [
@@ -46,7 +46,7 @@
     },
     "footer": {
         "logo": {
-            "image": "/img/Builty-Logo.svg",
+            "image": "/img/CSS-Logo.svg",
             "alt": "logo"
         },
         "info": {
@@ -54,7 +54,7 @@
             "tel": "(+180) 50 318 47 07",
             "email": "username@domain.com"
         },
-        "copy": "Builty Construction Company <i class='fa-solid fa-heart'></i> © 2023 <a href='https://themeforest.net/user/bslthemes/portfolio'>bslthemes</a> All rights reserved"
+        "copy": "Consolidated Construction Solution © 2025 <a href='https://avxstudio.com'>Made with <i class='fa-solid fa-heart'></i> By AVX Studio, LLC.</a> All rights reserved"
     },
     "social": [
         {
