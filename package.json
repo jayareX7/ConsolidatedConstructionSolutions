@@ -23,5 +23,9 @@
     "sass": "^1.49.7",
     "swiper": "^9.0.0",
     "tinacms": "^2.6.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.8.0",
+    "@types/node": "^22.10.5"
   }
 }
