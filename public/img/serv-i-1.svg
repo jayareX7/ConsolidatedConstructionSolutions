@@ -1,2 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116" height="116" viewBox="0 0 116 116"> <defs> <clipPath id="fsdggdfgdfgdfgd"> <rect width="116" height="116"/> </clipPath> </defs> <g id="_2sdfs" data-name="2" clip-path="url(#fsdggdfgdfgdfgd)"> <path id="Path_1sdfsdf" data-name="Path 1" d="M962.133,586.78h-6V508.9H933.257v16.942h-6V502.9h34.877Z" transform="translate(-898 -473)"/> <path id="Path_2werf3" data-name="Path 2" d="M962.133,558.519h-6V508.9H933.257v16.942h-6V502.9h34.877Z" transform="translate(-909 -445)"/> <path id="Path_sfsdf3" data-name="Path 3" d="M955.065,526.613h-6V509.966H933.257v5.549h-6V503.966h27.809Z" transform="translate(-880.123 -491)"/> <path id="Path_11dfsdf" data-name="Path 11" d="M6,6v5H27V6H6M0,0H33V17H0Z" transform="translate(7 86)"/> <path id="Path_12dsfdsfsdf" data-name="Path 12" d="M6,6v5H27V6H6M0,0H33V17H0Z" transform="translate(7 97)"/> <path id="Path_4edfse4" data-name="Path 4" d="M938.936,547.84h-11.1v-6h11.1Z" transform="translate(-898 -472)"/> <path id="Path_5sdgdsf" data-name="Path 5" d="M940.039,547.84h-12.2v-6h12.2Z" transform="translate(604.889 -926.548) rotate(90)"/> <path id="Path_6dfsdfs" data-name="Path 6" d="M1008.949,588.066H902.667a3,3,0,0,1,0-6h106.281a3,3,0,0,1,0,6Z" transform="translate(-898 -473)"/> <path id="Path_7sdfsadf" data-name="Path 7" d="M958.614,547.84H927.839v-6h30.774Z" transform="translate(627.889 -846.548) rotate(90)"/> <path id="Path_8ertet" data-name="Path 8" d="M958.614,547.84H927.839v-6h30.774Z" transform="translate(639.889 -846.548) rotate(90)"/> <path id="Path_13dfsdfsdfsdf" data-name="Path 13" d="M6,6V39H33V6H6M0,0H39V45H0Z" transform="translate(69 70)"/> <path id="Path_1asdasd4" data-name="Path 14" d="M30.844,14.28h0l-6-.086a8.5,8.5,0,0,0-16.977-.243l-6-.086a14.5,14.5,0,0,1,28.985.414Z" transform="translate(72.154 58)"/> <path id="Path_15rter" data-name="Path 15" d="M.7,23.855V0h28V14.261l-5.419-2.684V7H6.116V18.837L.7,23.853Z" transform="translate(68.303 41)"/> </g> </svg>
-
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 116 116" style="enable-background:new 0 0 116 116;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000070099463145328796490000014177089264781277059_);}
+	.st1{fill:#644A1D;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="116" height="116"/>
+	</defs>
+	<clipPath id="SVGID_00000152228010086399489270000017084710976516619188_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="_2sdfs" style="clip-path:url(#SVGID_00000152228010086399489270000017084710976516619188_);">
+		<path id="Path_1sdfsdf" class="st1" d="M64.1,113.8h-6V35.9H35.3v16.9h-6V29.9h34.9L64.1,113.8z"/>
+		<path id="Path_2werf3" class="st1" d="M53.1,113.5h-6V63.9H24.3v16.9h-6V57.9h34.9L53.1,113.5z"/>
+		<path id="Path_sfsdf3" class="st1" d="M74.9,35.6h-6V19H53.1v5.5h-6V13h27.8L74.9,35.6z"/>
+		<path id="Path_11dfsdf" class="st1" d="M13,92v5h21v-5H13 M7,86h33v17H7V86z"/>
+		<path id="Path_12dsfdsfsdf" class="st1" d="M13,103v5h21v-5H13 M7,97h33v17H7V97z"/>
+		<path id="Path_4edfse4" class="st1" d="M40.9,75.8H29.8v-6h11.1V75.8z"/>
+		<path id="Path_5sdgdsf" class="st1" d="M57,13.5V1.3h6v12.2H57z"/>
+		<path id="Path_6dfsdfs" class="st1" d="M110.9,115.1H4.7c-1.7,0-3-1.3-3-3s1.3-3,3-3h106.3c1.7,0,3,1.3,3,3
+			S112.6,115.1,110.9,115.1L110.9,115.1z"/>
+		<path id="Path_7sdfsadf" class="st1" d="M80,112.1V81.3h6v30.8L80,112.1z"/>
+		<path id="Path_8ertet" class="st1" d="M92,112.1V81.3h6v30.8L92,112.1z"/>
+		<path id="Path_13dfsdfsdfsdf" class="st1" d="M75,76v33h27V76H75 M69,70h39v45H69V70z"/>
+		<path id="Path_1asdasd4" class="st1" d="M103,72.3L103,72.3l-6-0.1c-0.2-4.7-4.1-8.4-8.8-8.2c-4.4,0.2-7.9,3.6-8.2,7.9l-6-0.1
+			c0.3-8,7.1-14.2,15.1-13.9C96.8,58.3,102.9,64.6,103,72.3L103,72.3z"/>
+		<path id="Path_15rter" class="st1" d="M69,64.9V41h28v14.3l-5.4-2.7V48H74.4v11.8L69,64.9L69,64.9z"/>
+	</g>
+</g>
+</svg>
