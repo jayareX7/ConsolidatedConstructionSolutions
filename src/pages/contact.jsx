@@ -32,7 +32,7 @@ const Contact = () => {
 
   return (
     <Layouts>
-        <PageBanner pageTitle={"Contact Us"} pageDesc={"our values and vaulted us to the top of our industry."} />
+        <PageBanner pageTitle={"Contact Us"} pageDesc={"our values has vaulted us to the top of our industry."} />
 
         {/* Contact Form 2 Start */}
         <section className="gap contact-form-2">

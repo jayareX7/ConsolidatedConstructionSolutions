@@ -8,7 +8,7 @@ import { getFeaturedProjectsData } from "@library/projects";
 const TeamDetail = ( { postData, projects } ) => {
   return (
     <Layouts>
-      <PageBanner pageTitle="Team Detail" pageDesc={"our values and vaulted us to the top of our industry."} />
+      <PageBanner pageTitle="Team Detail" pageDesc={"our values has vaulted us to the top of our industry."} />
 
       {/* Blog Style Three Start */}
       <section className="gap blog-style-one team-detail detail-page">
