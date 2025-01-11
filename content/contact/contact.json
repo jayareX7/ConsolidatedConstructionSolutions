@@ -1,4 +1,8 @@
 {
+    "contactbgImage":{
+        "bg_image": "/img/project8.jpeg"
+    },
+
     "faq":
     {
     "subtitle": "GET IN TOUCH",
