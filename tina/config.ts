@@ -144,7 +144,7 @@ export default defineConfig({
       {
         label: "Homepage",
         name: "homepage",
-        path: "content/sections/homepage",
+        path: "content/homepage",
         format: "json",
         fields: [
           {
@@ -426,7 +426,7 @@ export default defineConfig({
       {
         label: "About Us",
         name: "about",
-        path: "content/sections/about",
+        path: "content/about",
         format: "json",
         fields: [
           
@@ -670,7 +670,7 @@ export default defineConfig({
       {
         label: "Contact",
         name: "contact",
-        path: "content/sections/contact",
+        path: "content/contact",
         format: "json",
         fields: [
 
