@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import appData from "@data/app.json";
+import appData from "@content/settings/setting.json";
 import { useLocalStorage } from "@common/useLocalStorage";
 
 const DefaultHeader = ({ contactButton, cartButton }) => {
@@ -79,7 +79,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                     <div className="header-logo">
                       <Link href="/">
                         <figure>
-                          <img src={appData.header.logo.image} alt={appData.header.logo.alt} />
+                          <img src={appData.companyLogo.logo.image} alt={appData.companyLogo.logo.alt} />
                         </figure>
                       </Link>
                     </div>
@@ -201,7 +201,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
           <div className="mobile-nav mobile-menu" id="mobile-nav">
             <div className="res-log">
               <Link href="/">
-                <img src={appData.header.logo.image} alt={appData.header.logo.alt} />
+                <img src={appData.companyLogo.logo.image} alt={appData.companyLogo.logo.alt} />
               </Link>
             </div>
 

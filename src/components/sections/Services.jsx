@@ -1,4 +1,4 @@
-import Data from "@data/sections/services.json";
+import Data from "@content/homepage/homepage.json";
 import Link from "next/link";
 
 const ServicesSection = () => {
@@ -6,7 +6,7 @@ const ServicesSection = () => {
     <section className="gap service-style-one">
         <div className="container">
         <div className="row">
-            {Data.items.map((item, key) => (
+            {Data.process.items.map((item, key) => (
             <div key={`services-item-${key}`} className="col-lg-4 col-md-6 col-sm-12 text-center" >
             <div className="service-data">
                 <div className="svg-icon d-flex-all">

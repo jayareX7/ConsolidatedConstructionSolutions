@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import appData from "@data/app.json";
+import appData from "@content/settings/setting.json";
 
 import '../styles/scss/style.scss';
 import "../styles/globals.css";
@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
           {/* seo begin */}
-          <title>{appData.settings.siteName}</title>
+          <title>{appData.siteSettings.siteName}</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           {/* seo end */}        
       </Head>

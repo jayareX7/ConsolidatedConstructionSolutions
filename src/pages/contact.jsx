@@ -1,7 +1,7 @@
 import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
 import Accordion from 'react-bootstrap/Accordion';
-import appData from "@data/app.json";
+import appData from "@content/settings/setting.json";
 import { Formik } from 'formik';
 
 const Contact = () => {
@@ -102,7 +102,7 @@ const Contact = () => {
                             isSubmitting,
                             /* and other goodies */
                         }) => (
-                        <form onSubmit={handleSubmit} id="contactForm" action={appData.settings.formspreeURL}>
+                        <form onSubmit={handleSubmit} id="contactForm" action={appData.formspreeURL}>
                             <div className="row g-0">
                                 <textarea 
                                   name="message" 

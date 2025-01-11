@@ -1,8 +1,8 @@
-import Data from "@data/sections/estimated-price.json";
+import Data from "@content/homepage/homepage.json";
 import { useEffect } from "react";
 import { estimatedFormSteps } from "@common/utilits";
 import { Formik, Field } from 'formik';
-import appData from "@data/app.json";
+import appData from "@content/settings/setting.json";
 
 const EstimatedPriceSection = () => {
   useEffect(() => {
@@ -16,8 +16,8 @@ const EstimatedPriceSection = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="data">
-                            <span>{Data.subtitle}</span>
-                            <h2>{Data.title}</h2>
+                            <span>{Data.estimatePrice.subtitle}</span>
+                            <h2>{Data.estimatePrice.title}</h2>
                         </div>
                     </div> 
                     <div className="col-lg-6" />         
@@ -28,7 +28,7 @@ const EstimatedPriceSection = () => {
             <div className="row bg-wh">
                 <div className="col-lg-7" >
                 <div className="est-form">
-                    <p>{Data.description}</p>
+                    <p>{Data.estimatePrice.description}</p>
                     <Formik
                     initialValues = {{ email: '', name: '', message: '', materials: '1', area: '', room: '', bathroom: '' }}
                     validate = { values => {
@@ -91,7 +91,7 @@ const EstimatedPriceSection = () => {
                         isSubmitting,
                         /* and other goodies */
                     }) => (
-                    <form onSubmit={handleSubmit} id="contactForm" action={appData.settings.formspreeURL}>
+                    <form onSubmit={handleSubmit} id="contactForm" action={appData.formspreeURL}>
 
                         <div className="est-form-step-1">
                         <div className="row">
@@ -254,7 +254,7 @@ const EstimatedPriceSection = () => {
             </div>
             <div className="col-lg-5" >
                 <figure className="est-img">
-                    <img src={Data.image.url} alt={Data.image.alt} />
+                    <img src={Data.estimatePrice.image.url} alt={Data.estimatePrice.image.alt} />
                 </figure>
             </div>
         </div>

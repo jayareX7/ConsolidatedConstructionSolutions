@@ -1,4 +1,4 @@
-import Data from "../../data/sections/about.json";
+import Data from "@content/homepage/homepage.json";
 
 const AboutSection = () => {
     return (
@@ -8,27 +8,27 @@ const AboutSection = () => {
             <div className="col-lg-6" >
               <div className="about-data-left">
                 <figure>
-                  <img src={Data.image1.url} alt={Data.image1.alt} />
+                  <img src={Data.aboutSection1.image1.url} alt={Data.aboutSection1.image1.alt} />
                 </figure>
                 <figure className="about-image">
-                  <img src={Data.image2.url} alt={Data.image2.alt} />
+                  <img src={Data.aboutSection1.image2.url} alt={Data.aboutSection1.image2.alt} />
                 </figure>
               </div>
             </div>
             <div className="col-lg-6" >
               <div className="about-data-right">
-                <span>{Data.subtitle}</span>
-                <h2>{Data.title}</h2>
+                <span>{Data.aboutSection1.subtitle}</span>
+                <h2>{Data.aboutSection1.title}</h2>
                 <div className="about-info">
                   <p>
-                    {Data.text}
+                    {Data.aboutSection1.text}
                   </p>
                   <figure>
-                    <img className="light-icon" src={Data.signature.light} alt={Data.signature.alt} />
-                    <img className="dark-icon" src={Data.signature.dark} alt={Data.signature.alt} />
+                    <img className="light-icon" src={Data.aboutSection1.signature.light} alt={Data.aboutSection1.signature.alt} />
+                    <img className="dark-icon" src={Data.aboutSection1.signature.dark} alt={Data.aboutSection1.signature.alt} />
                   </figure>
-                  <h3>{Data.name}</h3>
-                  <h4>{Data.role}</h4>
+                  <h3>{Data.aboutSection1.name}</h3>
+                  <h4>{Data.aboutSection1.role}</h4>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { projectsListHover } from "@common/utilits";
-import Data from "@data/sections/projects-list.json";
+import Data from "@content/homepage/homepage.json";
 import Link from "next/link";
 
 const ProjectsListSection = ( { projects } ) => {
@@ -16,8 +16,8 @@ const ProjectsListSection = ( { projects } ) => {
                     <div className="row">
                     <div className="col-lg-6">
                         <div className="data">
-                            <span>{Data.subtitle}</span>
-                            <h2>{Data.title}</h2>
+                            <span>{Data.projectList.subtitle}</span>
+                            <h2>{Data.projectList.title}</h2>
                         </div>
                     </div> 
                     <div className="col-lg-6">
@@ -28,7 +28,7 @@ const ProjectsListSection = ( { projects } ) => {
             <div className="container">
                 <div className="row">
                     <ul className="wwb-ul">
-                    {projects.slice(0, Data.numOfItems).map((item, key) => (
+                    {projects.slice(0, Data.projectList.numOfItems).map((item, key) => (
                     <li key={`projectslist-item-${key}`} className={key == 0 ? "active" : ""}>
                         <h3>
                             <Link href={`/projects/${item.id}`}>{item.title}</Link>

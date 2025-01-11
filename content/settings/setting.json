@@ -1,8 +1,8 @@
 {
   "formspreeURL": "https://formspree.io/f/your_api_key",
   "mailchimp": {
-    "url": "",
-    "key": ""
+    "url": "https://mailchimp.com/",
+    "key": "12345678"
   },
   "siteSettings": {
     "siteName": "Consolidated Construction Solutions"
@@ -22,7 +22,8 @@
       "address": "901 N Pitt Str., Suite 170, VA 22314, USA",
       "tel": "(+180) 50 318 47 07",
       "email": "username@domain.com"
-    }
+    },
+    "copy": "Consolidated Construction Solution © 2025 <br> <a href='https://avxstudio.com'>Made with <i class='fa-solid fa-heart'></i> By AVX Studio, LLC.</a> All rights reserved"
   },
   "header": {
     "menu": [

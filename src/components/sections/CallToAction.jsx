@@ -1,4 +1,4 @@
-import Data from "@data/sections/call-to-action.json";
+import Data from "@content/about/about.json";
 import Link from "next/link";
 
 const CallToActionSection = () => {
@@ -8,10 +8,10 @@ const CallToActionSection = () => {
             <div className="row align-items-center">
                 <div className="col-lg-7">
                     <div className="cta-data">
-                        <h2>{Data.title}</h2>
-                        <p>{Data.description}</p>
-                        <Link href={Data.button.link} className="theme-btn">
-                            {Data.button.label}  
+                        <h2>{Data.CTA.title}</h2>
+                        <p>{Data.CTA.description}</p>
+                        <Link href={Data.CTA.button.link} className="theme-btn">
+                            {Data.CTA.button.label}  
                             <i className="fa-solid fa-angles-right" />
                         </Link>
                     </div>
@@ -19,7 +19,7 @@ const CallToActionSection = () => {
                 <div className="col-lg-5" >
                     <div className="cta-data">
                         <figure>
-                            <img src={Data.image.url} alt={Data.image.alt} />
+                            <img src={Data.CTA.image.url} alt={Data.CTA.image.alt} />
                         </figure>
                     </div>
                 </div>

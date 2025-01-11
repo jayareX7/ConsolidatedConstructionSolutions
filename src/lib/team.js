@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-const teamDirectory = path.join(process.cwd(), 'src/data/team')
+const teamDirectory = path.join(process.cwd(), 'content/team')
 
 export function getSortedTeamData() {
   // Get file names under /posts

@@ -11,7 +11,6 @@ import ContactForm2Section from "@components/sections/ContactForm2";
 import { getSortedServicesData } from "@library/services";
 
 
-import ServicesSection from "@components/sections/Services";
 
 
 const Services = (props) => {

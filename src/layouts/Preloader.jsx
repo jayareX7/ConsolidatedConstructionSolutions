@@ -1,10 +1,10 @@
-import appData from "@data/app.json";
+import appData from "@content/settings/setting.json";
 
 const Preloader = () => {
   return (
     <div className="preloader"> 
         <figure>
-            <img src={appData.settings.preloader.image} alt={appData.settings.preloader.alt} /> 
+            <img src={appData.preloader.image} alt={appData.preloader.alt} /> 
         </figure>
     </div>
   );
