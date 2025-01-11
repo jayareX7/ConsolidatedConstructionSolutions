@@ -691,7 +691,14 @@ export default defineConfig({
         path: "content/contact",
         format: "json",
         fields: [
-
+          {
+            label: 'Contact Background Image for Service Page',
+            name: 'contactbgImage',
+            type: 'object',
+            fields: [
+              { type: 'image', label: 'Background Image', name: 'bg_image' },
+            ],
+          },
           {
             label: 'FAQ',
             name: 'faq',
