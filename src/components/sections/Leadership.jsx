@@ -91,7 +91,7 @@ const Leadership = () => {
 
   return (
     <Layouts>
-      <PageBanner pageTitle={"Leadership"} pageDesc={"our values and vaulted us to the top of our industry."} />
+      <PageBanner pageTitle={"Leadership"} pageDesc={"our values has vaulted us to the top of our industry."} />
       
       {/* Team Style Two (Revolution) Start */}
       <section className="gap team-style-two revolution">
