@@ -84,6 +84,7 @@ export default defineConfig({
                   { type: 'string', label: 'Email', name: 'email' },
                 ],
               },
+              { type: 'string', label: 'Copy', name: 'copy' },
             ],
           },
 
@@ -127,6 +128,23 @@ export default defineConfig({
                 name: "title",
               },
               { type: "string", label: "URL ", name: "link" },
+            ],
+          },
+          {
+            label: 'Formspree URL',
+            name: 'formspreeURL',
+            type: 'object',
+            fields: [
+              { type: 'string', label: 'Formspree URL', name: 'formspreeURL' },
+            ],
+          },
+          {
+            label: 'Mailchimp',
+            name: 'mailchimp',
+            type: 'object',
+            fields: [
+              { type: 'string', label: 'URL', name: 'url' },
+              { type: 'string', label: 'Key', name: 'key' },
             ],
           },
         ],
