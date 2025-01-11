@@ -1,0 +1,230 @@
+{
+    "hompegape":
+    {
+    "heroImages": [
+        {
+            "image": "img/slide1.jpeg",
+            "title": "Create the Building You Want Here",
+            "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
+            "button": {
+                "label": "Start Consulting",
+                "link": "/contact"
+            }
+        },
+        {
+            "image": "img/project5.jpeg",
+            "title": "A Better Way To Build Your Dreams",
+            "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
+            "button": {
+                "label": "Estimate Price",
+                "link": "/services"
+            }
+        },
+        {
+            "image": "img/articles6.jpeg",
+            "title": "Builty Innovative & Industrial Solutions",
+            "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
+            "button": {
+                "label": "Start Consulting",
+                "link": "/contact"
+            }
+        }
+    ]
+},
+
+"aboutSection1": {
+    "image1": {
+        "url": "/img/about-one.jpeg",
+        "alt": "Image One"
+    },
+    "image2": {
+        "url": "/img/about-two.jpeg",
+        "alt": "Image One"
+    },
+    "title": "Constro Provides a full range of services",
+    "subtitle": "Welcome to Our Company",
+    "text": "We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!",
+    "signature": {
+        "light": "/img/signature.png",
+        "dark": "/img/signature-1.png",
+        "alt": "Signature"
+    },
+    "name": "Walimes Jonnie",
+    "role": "Director of Constro Company"
+},
+
+
+"process":
+{
+    "items": [
+        {
+            "icon": {
+                "light": "/images/icon-1.svg",
+                "dark": "/images/1-icon.png",
+                "alt": "icon"
+            },
+            "title": "Core Planning",
+            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor."
+        },
+        {
+            "icon": {
+                "light": "/images/icon-2.svg",
+                "dark": "/images/2-icon.png",
+                "alt": "icon"
+            },
+            "title": "Traditional Designs",
+            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor."
+        },
+        {
+            "icon": {
+                "light": "/images/icon-3.svg",
+                "dark": "/images/3-icon.png",
+                "alt": "icon"
+            },
+            "title": "Quality Materials",
+            "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor."
+        }
+    ]
+},
+
+"aboutSection2": {
+    "subtitle": "Focused and Future Ready",
+    "title": "Right People to Deliver Unique Construction Solutions",
+    "image": {
+        "url": "/img/core.jpeg",
+        "alt": "Our Goal"
+    },
+    "image_text_rotate": {
+        "url": "/img/our-goal-mov-text.png",
+        "alt": "Our Goal Mov Text"
+    },
+    "items": [
+        {
+            "title": "Our Goal is to Be Better",
+            "text": "<p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>"
+        },
+        {
+            "title": "Business Bottom Line",
+            "text": "<ul><li>Geographical diversity, project complexity</li><li>Whether building on land or over water</li><li>Construction companies respond to the unique needs</li></ul>"
+        }
+    ]
+},
+
+
+"counters": {
+    "items": [
+        {
+            "value": "10",
+            "label": "Years",
+            "plus": true,
+            "title": "Professional Experience"
+        },
+        {
+            "value": "300",
+            "label": "People",
+            "plus": false,
+            "title": "Employees in team"
+        },
+        {
+            "value": "21",
+            "label": "Locations",
+            "plus": false,
+            "title": "Sites in development"
+        }
+    ]
+},
+
+
+"projectList":
+    {
+    "subtitle": "Company Projects",
+    "title": "What We Build",
+    "numOfItems": 5
+},
+
+
+"features":
+        {
+        "subtitle": "Core Features",
+        "title": "What Makes Us Differnt",
+        "yt_video_id": "uemObN8_dcw",
+        "image": {
+            "url": "/img/core-feature.jpeg",
+            "alt": "image"
+        },
+        "items": [
+            {
+                "num": "01.",
+                "title": "Early Engagement",
+                "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+            },
+            {
+                "num": "02.",
+                "title": "Integrity",
+                "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+            },
+            {
+                "num": "03.",
+                "title": "Solutions",
+                "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+            },
+            {
+                "num": "04.",
+                "title": "Innovation",
+                "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+            }
+        ]
+    },
+
+
+    "partners": 
+{
+    "items": [
+        {
+            "image": "/img/client-1.png",
+            "alt": "img"
+        },
+        {
+            "image": "/img/client-2.png",
+            "alt": "img"
+        },
+        {
+            "image": "/img/client-3.png",
+            "alt": "img"
+        },
+        {
+            "image": "/img/client-4.png",
+            "alt": "img"
+        },
+        {
+            "image": "/img/client-5.png",
+            "alt": "img"
+        }
+    ]
+},
+
+"renovation":
+{
+"title": "Starts Here",
+"subtitle": "Your Renovation",
+"description": "Each of our completed projects comes with a 2-5 year warranty, giving you peace of mind knowing that your home’s renovations are in good hands.",
+"link": "/contact",
+"bg_image": "/img/renovation.jpeg",
+"image_circle_text": {
+    "url": "/img/circle-text.png",
+    "alt": "Circle Text"
+}
+    },
+
+"estimatePrice":
+{   "subtitle": "House Construction Cost Calculator",
+"title": "Estimatied Price",
+"description": "To get the cost estimation of your house please select from the following:",
+"image": {
+    "url": "/img/est-img.png",
+    "alt": "image"
+}
+}
+
+}
+
