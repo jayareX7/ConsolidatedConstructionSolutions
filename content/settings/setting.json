@@ -1,21 +1,30 @@
 {
-  "siteSettings": {
-    "siteName": "Consolidated Construction Solution",
-    "preloader": {
-      "image": "/img/CCS-Logo-Black-Home.svg",
-      "alt": "logo"
-    },
-    "formspreeURL": "https://formspree.io/f/your_api_key",
-    "mailchimp": {
-      "url": "",
-      "key": ""
-    }
+  "formspreeURL": "https://formspree.io/f/your_api_key",
+  "mailchimp": {
+    "url": "",
+    "key": ""
   },
-  "header": {
+  "siteSettings": {
+    "siteName": "Consolidated Construction Solutions"
+  },
+  "preloader": {
+    "image": "/img/CCS-Logo-Black-Home.svg",
+    "alt": "logo"
+  },
+  "companyLogo": {
     "logo": {
       "image": "/img/CCS-Logo.svg",
       "alt": "logo"
-    },
+    }
+  },
+  "companyInfo": {
+    "info": {
+      "address": "901 N Pitt Str., Suite 170, VA 22314, USA",
+      "tel": "(+180) 50 318 47 07",
+      "email": "username@domain.com"
+    }
+  },
+  "header": {
     "menu": [
       {
         "label": "Home",
@@ -44,30 +53,18 @@
       }
     ]
   },
-  "footer": {
-    "logo": {
-      "image": "/img/CSS-Logo.svg",
-      "alt": "logo"
-    },
-    "info": {
-      "address": "901 N Pitt Str., Suite 170, VA 22314, USA",
-      "tel": "(+180) 50 318 47 07",
-      "email": "username@domain.com"
-    },
-    "copy": "Consolidated Construction Solution © 2025 <br> <a href='https://avxstudio.com'>Made with <i class='fa-solid fa-heart'></i> By AVX Studio, LLC.</a> All rights reserved"
-  },
   "social": [
     {
-      "link": "https://facebook.com",
-      "title": "Facebook"
+      "title": "Facebook",
+      "link": "https://facebook.com"
     },
     {
-      "link": "https://twitter.com",
-      "title": "Twitter"
+      "title": "Twitter",
+      "link": "https://twitter.com"
     },
     {
-      "link": "https://linkedin.com",
-      "title": "Linkedin"
+      "title": "Linkedin",
+      "link": "https://linkedin.com"
     }
   ]
 }
