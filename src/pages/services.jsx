@@ -19,10 +19,12 @@ const Services = (props) => {
 
   return (
     <Layouts>
-      <PageBanner pageTitle={"Services"} pageDesc={"our values and vaulted us to the top of our industry."} />
+      <PageBanner pageTitle={"Services"} pageDesc={"our values has vaulted us to the top of our industry."} />
 
-      <ServicesSection />
-
+<br/>
+<br/>
+<br/>
+<br/>
       {/* Construction Services Start */}
       <section className="gap no-top construction-services">
         <div className="container">
@@ -53,6 +55,8 @@ const Services = (props) => {
             <div className="col-lg-8">
               <Tab.Content>
                 <Tab.Pane eventKey="tab-service-0" title="General Contracting">
+                <br/>
+                <br/>
                   <figure>
                     <img className="w-100" src="/img/service3.jpeg" alt="Services Nav Image 1" />
                     <figcaption>
