@@ -16,8 +16,8 @@ const EstimatedPriceSection = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="data">
-                            <span>{Data.estimatePrice.subtitle}</span>
-                            <h2>{Data.estimatePrice.title}</h2>
+                            <span>{Data.estimatedPrice.subtitle}</span>
+                            <h2>{Data.estimatedPrice.title}</h2>
                         </div>
                     </div> 
                     <div className="col-lg-6" />         
@@ -28,7 +28,7 @@ const EstimatedPriceSection = () => {
             <div className="row bg-wh">
                 <div className="col-lg-7" >
                 <div className="est-form">
-                    <p>{Data.estimatePrice.description}</p>
+                    <p>{Data.estimatedPrice.description}</p>
                     <Formik
                     initialValues = {{ email: '', name: '', message: '', materials: '1', area: '', room: '', bathroom: '' }}
                     validate = { values => {
@@ -96,7 +96,7 @@ const EstimatedPriceSection = () => {
                         <div className="est-form-step-1">
                         <div className="row">
                             <div className="form-group col-md-12">
-                                <label htmlFor="inputState-1">House Area</label>
+                                <label htmlFor="inputState-1">{Data.estimatedPrice.estimatedPriceForm.area.label}</label>
                                 <div className="select-wrapper">
                                 <select 
                                   id="inputState-1" 
@@ -106,18 +106,18 @@ const EstimatedPriceSection = () => {
                                   onBlur={handleBlur}
                                   value={values.area}
                                 >
-                                    <option>Choose Area</option>
-                                    <option value="to 50 sq.m">to 50 sq.m</option>
-                                    <option value="from 100 - 150 sq.m">from 100 - 150 sq.m</option>
-                                    <option value="from 150 - 250 sq.m">from 150 - 250 sq.m</option>
-                                    <option value="250 sq.m and more">250 sq.m and more</option>
+                                    <option>{Data.estimatedPrice.estimatedPriceForm.area.label}</option>
+                                    <option value="{Data.estimatedPrice.estimatedPriceForm.area.option1}">{Data.estimatedPrice.estimatedPriceForm.area.option1}</option>
+                                    <option value="{Data.estimatedPrice.estimatedPriceForm.area.option2}">{Data.estimatedPrice.estimatedPriceForm.area.option2}</option>
+                                    <option value="{Data.estimatedPrice.estimatedPriceForm.area.option3}">{Data.estimatedPrice.estimatedPriceForm.area.option3}</option>
+                                    <option value="{Data.estimatedPrice.estimatedPriceForm.area.option4}">{Data.estimatedPrice.estimatedPriceForm.area.option4}</option>
                                 </select>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="form-group col-md-6 space">
-                                <label htmlFor="inputState-2">Room</label>
+                                <label htmlFor="inputState-2">{Data.estimatedPrice.estimatedPriceForm.rooms.label}</label>
                                 <div className="select-wrapper">
                                     <select 
                                       id="inputState-2" 
@@ -127,18 +127,18 @@ const EstimatedPriceSection = () => {
                                       onBlur={handleBlur}
                                       value={values.room}
                                     >
-                                        <option>Select Room</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6 and more">6 and more</option>
+                                        <option>{Data.estimatedPrice.estimatedPriceForm.rooms.label}</option>
+                                        <option value="{Data.estimatedPrice.estimatedPriceForm.rooms.option1}">{Data.estimatedPrice.estimatedPriceForm.rooms.option1}</option>
+                                        <option value="{Data.estimatedPrice.estimatedPriceForm.rooms.option2}">{Data.estimatedPrice.estimatedPriceForm.rooms.option2}</option>
+                                        <option value="{Data.estimatedPrice.estimatedPriceForm.rooms.option3}">{Data.estimatedPrice.estimatedPriceForm.rooms.option3}</option>
+                                        <option value="{Data.estimatedPrice.estimatedPriceForm.rooms.option4}">{Data.estimatedPrice.estimatedPriceForm.rooms.option4}</option>
+                                        <option value="{Data.estimatedPrice.estimatedPriceForm.rooms.option5}">{Data.estimatedPrice.estimatedPriceForm.rooms.option5}</option>
+                                        <option value="{Data.estimatedPrice.estimatedPriceForm.rooms.option6}">{Data.estimatedPrice.estimatedPriceForm.rooms.option6}</option>
                                     </select>
                                 </div>
                             </div>
                             <div className="form-group col-md-6">
-                                <label htmlFor="inputState-3">Bathroom</label>
+                                <label htmlFor="inputState-3">{Data.estimatedPrice.estimatedPriceForm.bathroom.label}</label>
                                 <div className="select-wrapper gg">
                                     <select 
                                       id="inputState-3" 
@@ -148,16 +148,16 @@ const EstimatedPriceSection = () => {
                                       onBlur={handleBlur}
                                       value={values.bathroom}
                                     >
-                                        <option>Select Bathroom</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3 and more">3 and more</option>
+                                        <option>{Data.estimatedPrice.estimatedPriceForm.bathroom.label}</option>
+                                        <option value="1">{Data.estimatedPrice.estimatedPriceForm.bathroom.option1}</option>
+                                        <option value="2">{Data.estimatedPrice.estimatedPriceForm.bathroom.option2}</option>
+                                        <option value="3 and more">{Data.estimatedPrice.estimatedPriceForm.bathroom.option3}</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div className="row checkk g-0">
-                            <p>Building Materials</p>
+                            <p>{Data.estimatedPrice.estimatedPriceForm.materials.label}</p>
                             <div className="form-group col-md-6">
                                 <div className="custom-control custom-radio">
                                     <Field 
@@ -165,9 +165,9 @@ const EstimatedPriceSection = () => {
                                       id="customRadio1" 
                                       name="materials" 
                                       className="custom-control-input"
-                                      value="1" 
+                                      value="{Data.estimatedPrice.estimatedPriceForm.materials.option1}" 
                                     />
-                                    <label className="custom-control-label" htmlFor="customRadio1">A+ Grey Structure</label>
+                                    <label className="custom-control-label" htmlFor="customRadio1">{Data.estimatedPrice.estimatedPriceForm.materials.option1}</label>
                                 </div>
                             </div>
                             <div className="form-group col-md-6">
@@ -177,9 +177,9 @@ const EstimatedPriceSection = () => {
                                       id="customRadio2" 
                                       name="materials" 
                                       className="custom-control-input"
-                                      value="2"
+                                      value="{Data.estimatedPrice.estimatedPriceForm.materials.option2}"
                                     />
-                                    <label className="custom-control-label" htmlFor="customRadio2">Premium Finishing</label>
+                                    <label className="custom-control-label" htmlFor="customRadio2">{Data.estimatedPrice.estimatedPriceForm.materials.label}</label>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +254,7 @@ const EstimatedPriceSection = () => {
             </div>
             <div className="col-lg-5" >
                 <figure className="est-img">
-                    <img src={Data.estimatePrice.image.url} alt={Data.estimatePrice.image.alt} />
+                    <img src={Data.estimatedPrice.image.url} alt={Data.estimatedPrice.image.alt} />
                 </figure>
             </div>
         </div>

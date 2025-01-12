@@ -165,8 +165,8 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                           </>
                         }
                         {contactButton != 1 &&
-                        <a href="tel:+02101283492" className="theme-btn">
-                          +021 01283492 
+                        <a href="tel:{appData.footerInfo.info.tel}" className="theme-btn">
+                          {appData.footerInfo.info.tel}
                           <i>
                             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="40" height="62" viewBox="0 0 40 62">
                               <defs>
@@ -233,16 +233,16 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
           </div>
 
           <div className="mobile-nav desktop-menu">
-            <h2>We Build Building and Great Homes.</h2>
-            <p className="des">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.</p>
+            <h2>{appData.header.sidebarMenu.title}</h2>
+            <p className="des">{appData.header.sidebarMenu.text}</p>
             
             <figure>
-              <img src="/img/project1.jpeg" alt="image" />
+              <img src={appData.header.sidebarMenu.image} alt="image" />
             </figure>
 
-            <h3>Get in touch</h3>
-            <p className="num">(+380) 50 318 47 07</p>
-            <p className="adrs">65 Allerton Street 901 N Pitt Str, Suite 170, VA 22314, USA</p>
+            <h3>{appData.header.sidebarMenu.cta}</h3>
+            <p className="num">{appData.footerInfo.info.tel}</p>
+            <p className="adrs">{appData.footerInfo.info.address}</p>
 
             <div className="social-medias">
               {appData.social.map((item, key) => (
