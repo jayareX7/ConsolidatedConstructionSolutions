@@ -7,6 +7,7 @@ import Link from "next/link";
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.css';
 import ContactForm2Section from "@components/sections/ContactForm2";
+import Data from "@content/services/services.json"
 
 import { getSortedServicesData } from "@library/services";
 
@@ -31,22 +32,22 @@ const Services = (props) => {
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="services-nav">
-                <h2>Construction Services</h2>
+                <h2>{Data.ourServices.title}</h2>
                 <Nav variant="pills" className="nav nav-pills mb-3">
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-service-0">General Contracting</Nav.Link>
+                    <Nav.Link eventKey="tab-service-0">{Data.ourServices.item1.serviceName}</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-service-1">Construction Consultant</Nav.Link>
+                    <Nav.Link eventKey="tab-service-1">{Data.ourServices.item2.serviceName}</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-service-2">Metal Roofing</Nav.Link>
+                    <Nav.Link eventKey="tab-service-2">{Data.ourServices.item3.serviceName}</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-service-3">House Renovation</Nav.Link>
+                    <Nav.Link eventKey="tab-service-3">{Data.ourServices.item4.serviceName}</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-service-4">Green Building</Nav.Link>
+                    <Nav.Link eventKey="tab-service-4">{Data.ourServices.item5.serviceName}</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </div>
@@ -59,8 +60,8 @@ const Services = (props) => {
                   <figure>
                     <img className="w-100" src="/img/service3.jpeg" alt="Services Nav Image 1" />
                     <figcaption>
-                      <h3>General Contracting</h3>
-                      <p>One of the most critical stages of  the construction process is the commissioning and closeout.</p>
+                      <h3>{Data.ourServices.item1.serviceName}</h3>
+                      <p>{Data.ourServices.item1.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
@@ -68,8 +69,8 @@ const Services = (props) => {
                   <figure>
                     <img className="w-100" src="/img/service7.jpeg" alt="Services Nav Image 2" />
                     <figcaption>
-                      <h3>Construction Consultant</h3>
-                      <p>One of the most critical stages of  the construction process is the commissioning and closeout.</p>
+                      <h3>{Data.ourServices.item2.serviceName}</h3>
+                      <p>{Data.ourServices.item2.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
@@ -77,8 +78,8 @@ const Services = (props) => {
                   <figure>
                     <img className="w-100" src="/img/service2.jpeg" alt="Services Nav Image 3" />
                     <figcaption>
-                      <h3>Metal Roofing</h3>
-                      <p>One of the most critical stages of  the construction process is the commissioning and closeout.</p>
+                      <h3>{Data.ourServices.item3.serviceName}</h3>
+                      <p>{Data.ourServices.item3.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
@@ -86,8 +87,8 @@ const Services = (props) => {
                   <figure>
                     <img className="w-100" src="/img/service9.jpeg" alt="Services Nav Image 4" />
                     <figcaption>
-                      <h3>House Renovation</h3>
-                      <p>One of the most critical stages of  the construction process is the commissioning and closeout.</p>
+                      <h3>{Data.ourServices.item4.serviceName}</h3>
+                      <p>{Data.ourServices.item4.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
@@ -95,8 +96,8 @@ const Services = (props) => {
                   <figure>
                     <img className="w-100" src="/img/service4.jpeg" alt="Services Nav Image 5" />
                     <figcaption>
-                      <h3>Green Building</h3>
-                      <p>One of the most critical stages of  the construction process is the commissioning and closeout.</p>
+                      <h3>{Data.ourServices.item5.serviceName}</h3>
+                      <p>{Data.ourServices.item5.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
@@ -131,8 +132,8 @@ const Services = (props) => {
           <figure>
             <img src="/images/heading-icon.png" alt="heading-icon" />
           </figure>
-          <span>What We Provide</span>
-          <h2>Exclusive Services</h2>
+          <span>{Data.additionalServices.subtitle}</span>
+          <h2>{Data.additionalServices.title}</h2>
         </div>
         <div className="container">
           <div className="row g-0">

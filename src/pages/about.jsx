@@ -1,9 +1,12 @@
 import dynamic from "next/dynamic";
 
+import Data from "@content/about/about.json";
+
 import Layouts from "@layouts/Layouts";
 
 import PageBanner from "@components/PageBanner";
 import History from "../components/sections/History";
+
 
 import CallToActionSection from "@components/sections/CallToAction";
 
@@ -26,7 +29,7 @@ const About = () => {
       <section className="gap about-first">
         <div className="container">
           <div className="row">
-            <h2>Construction industry representing the interests of small and medium-sized building companies</h2>
+            <h2>{Data.aboutUs.title}</h2>
           </div>
         </div>
         <div className="container">
@@ -34,8 +37,8 @@ const About = () => {
             <div className="col-lg-6">
               <div className="who-we-are">
                 <div>
-                  <h3>Who We Are?</h3>
-                  <p>We are resolute in our mission to not only make a difference to the lives of people today but to also leave a legacy for future generations and the planet we live in. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>
+                  <h3>{Data.aboutUs.subtitle}</h3>
+                  <p>{Data.aboutUs.text}</p>
                 </div>
                 <figure>
                   <img className="w-100" src="/img/gallery-1.jpeg" alt="About Image One" />
@@ -45,13 +48,13 @@ const About = () => {
             <div className="col-lg-5 offset-lg-1">
               <div className="who-we-are space">
                 <div>
-                  <h3>What's in it for me?</h3>
+                  <h3>{Data.aboutUs.listTitle}</h3>
                   <ul>
-                    <li><i className="fa-solid fa-circle-dot" /> High performing, low carbon concrete solution</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Value for workers' skills</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Excellent standards in construction</li>
-                    <li><i className="fa-solid fa-circle-dot" /> An inclusive industry</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Don't take our word for it</li>
+                    <li><i className="fa-solid fa-circle-dot" /> {Data.aboutUs.items.listText1}</li>
+                    <li><i className="fa-solid fa-circle-dot" /> {Data.aboutUs.items.listText2}</li>
+                    <li><i className="fa-solid fa-circle-dot" /> {Data.aboutUs.items.listText3}</li>
+                    <li><i className="fa-solid fa-circle-dot" /> {Data.aboutUs.items.listText4}</li>
+                    <li><i className="fa-solid fa-circle-dot" /> {Data.aboutUs.items.listText5}</li>
                   </ul>
                 </div>
                 <figure>
