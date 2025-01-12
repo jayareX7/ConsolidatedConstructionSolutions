@@ -35,12 +35,25 @@ export default defineConfig({
         format: 'json',
         fields: [
           {
-            type: 'object',
-            label: 'Site Name',
+            label: 'Site Settings ',
             name: 'siteSettings',
-          fields:[{ type: 'string', label: 'Name of Site', name: 'siteName' },],
-          
+            type: 'object',
+            fields: [
+          { type: 'string', label: 'Site Name', name: 'siteName' },
+          { type: 'string', label: 'Site Owner', name: 'siteOwner' },
+          { type: 'string', label: 'Site Title', name: 'siteTitle' },
+          {
+            type: 'object',
+            label: 'Owner Image',
+            name: 'ownerImage',
+            fields: [
+              { type: 'image', label: 'Image', name: 'image' },
+              { type: 'string', label: 'Alt Text', name: 'alt' },
+            ],
           },
+        ],
+      },
+      
           {
             label: 'Preloader Image ',
             name: 'preloader',
@@ -70,18 +83,37 @@ export default defineConfig({
           },
 
           {
-            label: 'Company Info',
-            name: 'companyInfo',
+            label: 'Footer Info',
+            name: 'footerInfo',
             type: 'object',
             fields: [
               {
                 type: 'object',
-                label: 'Contact Information',
+                label: 'Information',
+                name: 'information',
+                fields: [
+                  { type: 'string', label: 'Title', name: 'title' },
+                  { type: 'string', label: 'Text', name: 'text' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Contact Info',
                 name: 'info',
                 fields: [
+                  { type: 'string', label: 'Title', name: 'title' },
                   { type: 'string', label: 'Address', name: 'address' },
                   { type: 'string', label: 'Tel', name: 'tel' },
                   { type: 'string', label: 'Email', name: 'email' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Newsletter',
+                name: 'newsletter',
+                fields: [
+                  { type: 'string', label: 'Title', name: 'title' },
+                  { type: 'string', label: 'Text', name: 'text' },
                 ],
               },
               { type: 'string', label: 'Copy', name: 'copy' },
@@ -94,6 +126,18 @@ export default defineConfig({
             label: 'Navigation Links',
             name: 'header',
             fields: [
+
+              {
+                label: 'Sidebar Menu',
+                name: 'sidebarMenu',
+                type: 'object',
+                fields: [
+                  { type: 'string', label: 'Title', name: 'title' },
+                  { type: 'string', label: 'Text', name: 'text' },
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'CTA', name: 'cta' },
+                ],
+              },
               {
                 type: 'object',
                 label: 'Menu',
@@ -164,30 +208,34 @@ export default defineConfig({
         name: "homepage",
         path: "content/homepage",
         format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
           {
+            type: 'object',
             label: 'Hero Images',
             name: 'heroImages',
-            type: 'object',
+            list: true,
+            ui: {
+              itemProps: (item) => ({
+                label: item?.title || "New Item",
+              }),
+            },
             fields: [
+              { type: 'image', label: 'Image', name: 'image' },
+              { type: 'string', label: 'Title', name: 'title' },
+              { type: 'string', label: 'Text', name: 'text' },
               {
                 type: 'object',
-                label: 'Hero Images',
-                name: 'heroImages',
-                list: true,
+                label: 'Button',
+                name: 'button',
                 fields: [
-                  { type: 'string', label: 'Image', name: 'image' },
-                  { type: 'string', label: 'Title', name: 'title' },
-                  { type: 'string', label: 'Text', name: 'text' },
-                  {
-                    type: 'object',
-                    label: 'Button',
-                    name: 'button',
-                    fields: [
-                      { type: 'string', label: 'Label', name: 'label' },
-                      { type: 'string', label: 'Link', name: 'link' },
-                    ],
-                  },
+                  { type: 'string', label: 'Label', name: 'label' },
+                  { type: 'string', label: 'Link', name: 'link' },
                 ],
               },
             ],
@@ -251,14 +299,19 @@ export default defineConfig({
                 label: 'Items',
                 name: 'items',
                 list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.title || "New Item",
+                  }),
+                },
                 fields: [
                   {
                     type: 'object',
                     label: 'Icon',
                     name: 'icon',
                     fields: [
-                      { type: 'string', label: 'Light', name: 'light' },
-                      { type: 'string', label: 'Dark', name: 'dark' },
+                      { type: 'image', label: 'Light', name: 'light' },
+                      { type: 'image', label: 'Dark', name: 'dark' },
                       { type: 'string', label: 'Alt', name: 'alt' },
                     ],
                   },
@@ -306,6 +359,11 @@ export default defineConfig({
                 label: "Descriptions",
                 name: "items",
                 list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.title || "New Item",
+                  }),
+                },
                 fields: [
                   { type: "string", label: "Title", name: "title" },
                   {
@@ -326,9 +384,14 @@ export default defineConfig({
             fields: [
               {
                 type: 'object',
-                label: 'Items',
+                label: 'Counters',
                 name: 'items',
                 list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.title || "New Item",
+                  }),
+                },
                 fields: [
                   { type: 'string', label: 'Value', name: 'value' },
                   { type: 'string', label: 'Label', name: 'label' },
@@ -368,9 +431,14 @@ export default defineConfig({
               },
               {
                 type: 'object',
-                label: 'Items',
+                label: 'Features',
                 name: 'items',
                 list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.title || "New Item",
+                  }),
+                },
                 fields: [
                   { type: 'string', label: 'Number', name: 'num' },
                   { type: 'string', label: 'Title', name: 'title' },
@@ -383,21 +451,32 @@ export default defineConfig({
             label: 'Partners',
             name: 'partners',
             type: 'object',
+            ui: {
+              itemProps: (item) => ({
+                label: item?.title || "New Item",
+              }),
+            },
             fields: [
               {
                 type: 'object',
-                label: 'Items',
+                label: 'Partner List',
                 name: 'items',
                 list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.title || "New Item",
+                  }),
+                },
                 fields: [
-                  { type: 'string', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Partner Name', name: 'title' },
+                  { type: 'image', label: 'Image', name: 'image' },
                   { type: 'string', label: 'Alt', name: 'alt' },
                 ],
               },
             ],
           },
           {
-            label: 'Renovation',
+            label: 'Renovations',
             name: 'renovation',
             type: 'object',
             fields: [
@@ -405,21 +484,21 @@ export default defineConfig({
               { type: 'string', label: 'Subtitle', name: 'subtitle' },
               { type: 'string', label: 'Description', name: 'description' },
               { type: 'string', label: 'Link', name: 'link' },
-              { type: 'string', label: 'Background Image', name: 'bg_image' },
+              { type: 'image', label: 'Background Image', name: 'bg_image' },
               {
                 type: 'object',
                 label: 'Image Circle Text',
                 name: 'image_circle_text',
                 fields: [
-                  { type: 'string', label: 'URL', name: 'url' },
+                  { type: 'image', label: 'URL', name: 'url' },
                   { type: 'string', label: 'Alt', name: 'alt' },
                 ],
               },
             ],
           },
           {
-            label: 'Estimate Price',
-            name: 'estimatePrice',
+            label: 'Estimated Price',
+            name: 'estimatedPrice',
             type: 'object',
             fields: [
               { type: 'string', label: 'Subtitle', name: 'subtitle' },
@@ -430,8 +509,62 @@ export default defineConfig({
                 label: 'Image',
                 name: 'image',
                 fields: [
-                  { type: 'string', label: 'URL', name: 'url' },
-                  { type: 'string', label: 'Alt', name: 'alt' },
+                  { type: 'image', label: 'URL', name: 'url' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Estimated Price Form',
+                name: 'estimatedPriceForm',
+                fields: [
+                  {
+                    type: 'object',
+                    label: 'Area',
+                    name: 'area',
+                    fields: [
+                      { type: 'string', label: 'Label', name: 'label' },
+                      { type: 'string', label: 'Option 1', name: 'option1' },
+                      { type: 'string', label: 'Option 2', name: 'option2' },
+                      { type: 'string', label: 'Option 3', name: 'option3' },
+                      { type: 'string', label: 'Option 4', name: 'option4' },
+                    ],
+                  },
+                  {
+                    type: 'object',
+                    label: 'Rooms',
+                    name: 'rooms',
+                    fields: [
+                      { type: 'string', label: 'Label', name: 'label' },
+                      { type: 'string', label: 'Option 1', name: 'option1' },
+                      { type: 'string', label: 'Option 2', name: 'option2' },
+                      { type: 'string', label: 'Option 3', name: 'option3' },
+                      { type: 'string', label: 'Option 4', name: 'option4' },
+                      { type: 'string', label: 'Option 5', name: 'option5' },
+                      { type: 'string', label: 'Option 6', name: 'option6' },
+                    ],
+                  },
+                  {
+                    type: 'object',
+                    label: 'Bathrooms',
+                    name: 'bathroom',
+                    fields: [
+                      { type: 'string', label: 'Label', name: 'label' },
+                      { type: 'string', label: 'Option 1', name: 'option1' },
+                      { type: 'string', label: 'Option 2', name: 'option2' },
+                      { type: 'string', label: 'Option 3', name: 'option3' },
+                    ],
+                  },
+                  {
+                    type: 'object',
+                    label: 'Materials',
+                    name: 'materials',
+                    fields: [
+                      { type: 'string', label: 'Label', name: 'label' },
+                      { type: 'string', label: 'Option 1', name: 'option1' },
+                      { type: 'string', label: 'Option 2', name: 'option2' },
+                    ],
+                  },
                 ],
               },
             ],
@@ -446,9 +579,118 @@ export default defineConfig({
         name: "about",
         path: "content/about",
         format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
           
+          {
+            label: 'About Us',
+            name: 'aboutUs',
+            type: 'object',
+            fields: [
+              { type: 'string', label: 'Title', name: 'title' },
+              { type: 'string', label: 'Subtitle', name: 'subtitle' },
+              { type: 'string', label: 'Text', name: 'text' },
+              { type: 'string', label: 'List Title', name: 'listTitle' },
+              {
+                type: 'object',
+                label: 'List Items',
+                name: 'items',
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.name || "New Item",
+                  }),
+                },
+                fields: [
+                  { type: 'string', label: 'List Item 1', name: 'listText1' },
+                  { type: 'string', label: 'List Item 2', name: 'listText2' },
+                  { type: 'string', label: 'List Item 3', name: 'listText3' },
+                  { type: 'string', label: 'List Item 4', name: 'listText4' },
+                  { type: 'string', label: 'List Item 5', name: 'listText5' },
+                ],
+              },
+            ],
+          },
 
+          {
+            label: 'History',
+            name: 'history',
+            type: 'object',
+            fields: [
+              { type: 'string', label: 'Title', name: 'title' },
+              { type: 'string', label: 'Subtitle', name: 'subtitle' },
+              {
+                type: 'object',
+                label: 'Slide 1',
+                name: 'slide1',
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                  { type: 'string', label: 'Year', name: 'year' },
+                  { type: 'string', label: 'Text', name: 'text' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Slide 2',
+                name: 'slide2',
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                  { type: 'string', label: 'Year', name: 'year' },
+                  { type: 'string', label: 'Text', name: 'text' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Slide 3',
+                name: 'slide3',
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                  { type: 'string', label: 'Year', name: 'year' },
+                  { type: 'string', label: 'Text', name: 'text' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Slide 4',
+                name: 'slide4',
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                  { type: 'string', label: 'Year', name: 'year' },
+                  { type: 'string', label: 'Text', name: 'text' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Slide 5',
+                name: 'slide5',
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                  { type: 'string', label: 'Year', name: 'year' },
+                  { type: 'string', label: 'Text', name: 'text' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Slide 6',
+                name: 'slide6',
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                  { type: 'string', label: 'Year', name: 'year' },
+                  { type: 'string', label: 'Text', name: 'text' },
+                ],
+              },
+            ],
+          },
                 {
                   label: 'Team',
                   name: 'team',
@@ -591,8 +833,8 @@ export default defineConfig({
         label: "Projects",
         path: "content/projects",
         fields: [
-          { type: 'string', label: 'Title', name: 'title' },
-          { type: 'string', label: 'Image', name: 'image' },
+          { type: 'string', label: 'Title', name: 'title', isTitle: true, required: true },
+          { type: 'image', label: 'Image', name: 'image' },
           { type: 'string', label: 'Short Description', name: 'short' },
           { type: 'string', label: 'Location', name: 'location' },
           { type: 'string', label: 'Dates', name: 'dates' },
@@ -639,7 +881,7 @@ export default defineConfig({
                 name: 'items',
                 list: true,
                 fields: [
-                  { type: 'string', label: 'Image', name: 'image' },
+                  { type: 'image', label: 'Image', name: 'image' },
                   { type: 'string', label: 'Alt', name: 'alt' },
                 ],
               },
@@ -652,51 +894,121 @@ export default defineConfig({
 
 
       {
-        name: "services",
-        label: "Services",
-        path: "content/services",
+        label: 'Services',
+        name: 'services',
+        path: 'content/services',
+        format: 'json',
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
           {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
+            type: 'object',
+            label: 'Our Services',
+            name: 'ourServices',
+            ui: {
+              itemProps: (item) => ({
+                label: item?.title || "New Item",
+              }),
+            },
+            fields: [
+              { type: 'string', label: 'Title', name: 'title' },
+              {
+                type: 'object',
+                label: 'Item 1',
+                name: 'item1',
+                fields: [
+                  { type: 'string', label: 'Service Name', name: 'serviceName' },
+                  { type: 'string', label: 'Description', name: 'description' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Item 2',
+                name: 'item2',
+                fields: [
+                  { type: 'string', label: 'Service Name', name: 'serviceName' },
+                  { type: 'string', label: 'Description', name: 'description' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Item 3',
+                name: 'item3',
+                fields: [
+                  { type: 'string', label: 'Service Name', name: 'serviceName' },
+                  { type: 'string', label: 'Description', name: 'description' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Item 4',
+                name: 'item4',
+                fields: [
+                  { type: 'string', label: 'Service Name', name: 'serviceName' },
+                  { type: 'string', label: 'Description', name: 'description' },
+                ],
+              },
+              {
+                type: 'object',
+                label: 'Item 5',
+                name: 'item5',
+                fields: [
+                  { type: 'string', label: 'Service Name', name: 'serviceName' },
+                  { type: 'string', label: 'Description', name: 'description' },
+                ],
+              },
+            ],
           },
           {
-            type: "string",
-            name: "short",
-            label: "Short Description",
-            required: true,
+            type: 'object',
+            label: 'Additional Services',
+            name: 'additionalServices',
+            fields: [
+              { type: 'string', label: 'Title', name: 'title' },
+              { type: 'string', label: 'Subtitle', name: 'subtitle' },
+            ],
           },
           {
-            type: "image",
-            name: "image",
-            label: "Service Icon Image",
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
+            type: 'object',
+            label: 'Contact Form',
+            name: 'contactSubject',
+            fields: [
+              { type: 'image', label: 'Background Image', name: 'bg_image' },
+              { type: 'string', label: 'Title', name: 'title' },
+              { type: 'string', label: 'Subject 1', name: 'subject1' },
+              { type: 'string', label: 'Subject 2', name: 'subject2' },
+              { type: 'string', label: 'Subject 3', name: 'subject3' },
+              { type: 'string', label: 'Subject 4', name: 'subject4' },
+            ],
           },
         ],
       },
-
 
       {
         label: "Contact",
         name: "contact",
         path: "content/contact",
         format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
+          
           {
-            label: 'Contact Background Image for Service Page',
-            name: 'contactbgImage',
+            label: 'Contact Form',
+            name: 'contactForm',
             type: 'object',
             fields: [
-              { type: 'image', label: 'Background Image', name: 'bg_image' },
+              { type: 'string', label: 'Title', name: 'title' },
+              { type: 'string', label: 'Subtitle', name: 'subtitle' },
+              { type: 'string', label: 'Text', name: 'text' },
             ],
           },
           {
@@ -711,13 +1023,26 @@ export default defineConfig({
                 label: 'Question',
                 name: 'items',
                 list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.title || "New Item",
+                  }),
+                },
                 fields: [
                   { type: 'string', label: 'Title', name: 'title' },
                   { type: 'string', label: 'Text', name: 'text' },
                 ],
               },
             ],
-          },          
+          },   
+          {
+            label: 'Contact Map',
+            name: 'contactMap',
+            type: 'object',
+            fields: [
+              { type: 'string', label: 'Map URL', name: 'url' },
+            ],
+          },      
         ],
       },
        
@@ -726,6 +1051,7 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "content/posts",
+        format: "md",
         fields: [
           {
             type: "string",
@@ -741,10 +1067,6 @@ export default defineConfig({
             isBody: true,
           },
         ],
-        ui: {
-          // This is an DEMO router. You can remove this to fit your site
-          router: ({ document }) => `/demo/blog/${document._sys.filename}`,
-        },
       },    
 
     
