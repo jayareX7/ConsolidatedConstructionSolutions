@@ -1,34 +1,33 @@
 {
- 
-    "heroImages": [
-      {
-        "image": "img/slide1.jpeg",
-        "title": "Create the Building You Want Here",
-        "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
-        "button": {
-          "label": "Start Consulting",
-          "link": "/contact"
-        }
-      },
-      {
-        "image": "img/project5.jpeg",
-        "title": "A Better Way To Build Your Dreams",
-        "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
-        "button": {
-          "label": "Estimate Price",
-          "link": "/services"
-        }
-      },
-      {
-        "image": "img/articles6.jpeg",
-        "title": "Builty Innovative & Industrial Solutions",
-        "text": "Builty is a construction and architecture environmentally most responsible for any kinds of themes.",
-        "button": {
-          "label": "Start Consulting",
-          "link": "/contact"
-        }
+  "heroImages": [
+    {
+      "image": "/img/slide1.jpeg",
+      "title": "Create Your Dream Home",
+      "text": "We are a construction and architecture environmentally friendly company",
+      "button": {
+        "label": "Start Consulting",
+        "link": "/contact"
       }
-    ],
+    },
+    {
+      "image": "/img/slide2.jpeg",
+      "title": "Build Your Dreams",
+      "text": "We are a construction and architecture environmentally friendly company",
+      "button": {
+        "label": "Estimate Price",
+        "link": "/services"
+      }
+    },
+    {
+      "image": "/img/slide3.jpeg",
+      "title": "Innovative Solutions",
+      "text": "We are a construction and architecture environmentally friendly company",
+      "button": {
+        "label": "Start Consulting",
+        "link": "/contact"
+      }
+    }
+  ],
   "aboutSection1": {
     "image1": {
       "url": "/img/about-one.jpeg"
@@ -159,22 +158,27 @@
   "partners": {
     "items": [
       {
+        "title": "Partner 1",
         "image": "/img/client-1.png",
         "alt": "img"
       },
       {
+        "title": "Partner 2",
         "image": "/img/client-2.png",
         "alt": "img"
       },
       {
+        "title": "Partner 3",
         "image": "/img/client-3.png",
         "alt": "img"
       },
       {
+        "title": "Partner 4",
         "image": "/img/client-4.png",
         "alt": "img"
       },
       {
+        "title": "Partner 5",
         "image": "/img/client-5.png",
         "alt": "img"
       }
@@ -191,13 +195,42 @@
       "alt": "Circle Text"
     }
   },
-  "estimatePrice": {
+  "estimatedPrice": {
     "subtitle": "House Construction Cost Calculator",
     "title": "Estimatied Price",
     "description": "To get the cost estimation of your house please select from the following:",
     "image": {
       "url": "/img/est-img.png",
       "alt": "image"
+    },
+    "estimatedPriceForm": {
+      "area": {
+        "label": "Choose Area",
+        "option1": "to 50 sq.m",
+        "option2": "from 100 - 150 sq.m",
+        "option3": "from 150 - 250 sq.m",
+        "option4": "250 sq.m and more"
+      },
+      "rooms": {
+        "label": "Rooms",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "option5": "5",
+        "option6": "6 and more"
+      },
+      "bathroom": {
+        "label": "Bathrooms",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3 or more"
+      },
+      "materials": {
+        "label": "Materials",
+        "option1": "A+ Grey Structure",
+        "option2": "Premium Finishing"
+      }
     }
   }
 }

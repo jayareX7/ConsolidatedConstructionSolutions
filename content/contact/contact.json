@@ -1,33 +1,40 @@
 {
-    "contactbgImage":{
-        "bg_image": "/img/project8.jpeg"
+
+"contactForm":
+  {
+    "title": "Quality & Passion With Contact Form",
+    "subtitle": "How can we help?",
+    "text": "Have questions or want to chat? Fill out our contact form, and we’ll put you in touch with the right people."
     },
 
-    "faq":
-    {
-    "subtitle": "GET IN TOUCH",
-    "title": "Quality & Passion With Contact Form",
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Finding Solutions For Your Idea",
     "items": [
-        {
-            "title": "Occupational Health Risk Management?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
-        },
-        {
-            "title": "What is commercial in construction?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
-        },
-        {
-            "title": "Start a construction management?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
-        },
-        {
-            "title": "Measure quality in construction projects?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
-        },
-        {
-            "title": "Prepare a construction project schedule?",
-            "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
-        }
+      {
+        "title": "Health Risk Management?",
+        "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+      },
+      {
+        "title": "What is commercial in construction?",
+        "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+      },
+      {
+        "title": "Start a construction management?",
+        "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+      },
+      {
+        "title": "Measure quality in construction projects?",
+        "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+      },
+      {
+        "title": "Prepare a construction project schedule?",
+        "text": "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased."
+      }
     ]
-}
+  },
+  "contactMap":
+  {
+    "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1772352.9760682904!2d-97.83170259126426!3d29.817321316248286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b8b4488d8501%3A0xca0d02def365053b!2sHouston%2C%20TX!5e0!3m2!1sen!2sus!4v1736710137048!5m2!1sen!2sus"
+  }
 }

@@ -1,220 +1,268 @@
 {
-
-
-
-"CTA":{
-    "title": "Ready to work together?",
-    "description": "You’re looking for a reliable construction partner or you’re looking to take the next step in your career, we want to hear from you!",
-    "image": {
-        "url": "/img/building-2.png",
-        "alt": "image"
-    },
-    "button": {
-        "link": "/contact",
-        "label": "Build a Project"
+  "aboutUs": {
+    "title": "Construction industry representing the interests of small and medium-sized building companies",
+    "subtitle": "Who We Are?",
+    "text": "We are resolute in our mission to not only make a difference to the lives of people today but to also leave a legacy for future generations and the planet we live in. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!",
+    "listTitle": "What's in it for me?",
+    "items": {
+      "listText1": "High performing, low carbon concrete solution",
+      "listText2": "High performing, low carbon concrete solution",
+      "listText3": "High performing, low carbon concrete solution",
+      "listText4": "High performing, low carbon concrete solution",
+      "listText5": "High performing, low carbon concrete solution"
     }
-},
-
-"partners": 
-{
-    "items": [
-        {
-            "image": "/img/client-1.png",
-            "alt": "img"
+  },
+  "history": {
+    "title": "Company History",
+    "subtitle": "A strong foundation",
+    "slide1":
+    {
+       "image": "/img/slide1.jpeg",
+        "alt": "History Image One",
+        "year": "1982",
+        "text": "<span>Thomas Willimes starts the company,</span> managing construction of our first office building in Chelsea, Mass."
+    },
+    "slide2":
+    {
+        "image": "/img/pricing1.jpeg",
+        "alt": "History Image Two",
+        "year": "1994",
+        "text": "Our company embraces snowbird status and expands to West Palm Beach—our first office outside New England."
+       },
+      "slide3":
+        { 
+       "image": "/img/project1.jpeg",
+          "alt": "History Image Six",
+        "year": "2004",
+        "text": "The Career Start program officially launches, recruiting college graduates into robust construction training rotations."
+        }, 
+       "slide4":
+       { "image":"/img/articles3.jpeg",
+        "alt": "History Image Three",
+        "year": "2010",
+        "text": "Certified firms to learn our approach, make connections, and grow their businesses."
         },
+        "slide5":
         {
-            "image": "/img/client-2.png",
-            "alt": "img"
+        "image":"/img/articles3.jpeg",
+        "alt": "History Image Four",
+        "year": "2017",
+        "text": "starts Safer Together, our safety program that emphasizes people and teamwork."
         },
-        {
-            "image": "/img/client-3.png",
-            "alt": "img"
-        },
-        {
-            "image": "/img/client-4.png",
-            "alt": "img"
-        },
-        {
-            "image": "/img/client-5.png",
-            "alt": "img"
+         "slide6":
+         { 
+        "image":"/img/articles3.jpeg",
+        "alt": "History Image Five",
+        "year": "2021",
+        "text": "highly collaborative design-build process that is revolutionizing the real estate development lifecycle"
         }
-    ]
-},
-
-"team":
-
-{
+        },
+  "team": {
     "subtitle": "Our Skilled Team",
     "title": "Meet The Expert Team",
     "items": [
-        {
-            "image": "/img/team-3.png",
-            "name": "Henry Taylor",
-            "role": "Head Railway Construction",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
-        },
-        {
-            "image": "/img/team-1.png",
-            "name": "Edward Jeffrey",
-            "role": "Finance Department",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
-        },
-        {
-            "image": "/img/team-2.png",
-            "name": "Nicholas Larry",
-            "role": "Railway Manager",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
-        },
-        {
-            "image": "/img/team-3.png",
-            "name": "Stephen Jones",
-            "role": "Creative Worker",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
-        },
-        {
-            "image": "/img/team-1.png",
-            "name": "Eric Scot",
-            "role": "Cheif Railway Construction",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
-        },
-        {
-            "image": "/img/team-2.png",
-            "name": "Alexander Sorloth",
-            "role": "Head Railway Construction",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
-        },
-        {
-            "image": "/img/team-3.png",
-            "name": "Jose Tyler",
-            "role": "HR Department",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
-        },
-        {
-            "image": "/img/team-2.png",
-            "name": "Henry Vincent",
-            "role": "Construction Manager",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
-        }
+      {
+        "image": "/img/team-3.png",
+        "name": "Henry Taylor",
+        "role": "Head Railway Construction",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/img/team-1.png",
+        "name": "Edward Jeffrey",
+        "role": "Finance Department",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/img/team-2.png",
+        "name": "Nicholas Larry",
+        "role": "Railway Manager",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/img/team-3.png",
+        "name": "Stephen Jones",
+        "role": "Creative Worker",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/img/team-1.png",
+        "name": "Eric Scot",
+        "role": "Cheif Railway Construction",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/img/team-2.png",
+        "name": "Alexander Sorloth",
+        "role": "Head Railway Construction",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/img/team-3.png",
+        "name": "Jose Tyler",
+        "role": "HR Department",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/img/team-2.png",
+        "name": "Henry Vincent",
+        "role": "Construction Manager",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      }
     ]
-},
-
-"testimonial":{
+  },
+  "testimonial": {
     "subtitle": "Testimonials",
-    "title":  "Client’s Reviews",
+    "title": "Client’s Reviews",
     "image": {
-        "url": "/img/clients-images.png",
-        "alt": "Client Images"
+      "url": "/img/clients-images.png",
+      "alt": "Client Images"
     },
     "items": [
-        {
-            "name": "Marko Marlee",
-            "role": "Chairman, Building Corp",
-            "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
-        },
-        {
-            "name": "Christopher",
-            "role": "Social Worker",
-            "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
-        },
-        {
-            "name": "Donald Paul",
-            "role": "Constructor",
-            "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
-        },
-        {
-            "name": "Kevin Samuel",
-            "role": "Creative Head",
-            "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
-        }
+      {
+        "name": "Marko Marlee",
+        "role": "Chairman, Building Corp",
+        "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+      },
+      {
+        "name": "Christopher",
+        "role": "Social Worker",
+        "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+      },
+      {
+        "name": "Donald Paul",
+        "role": "Constructor",
+        "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+      },
+      {
+        "name": "Kevin Samuel",
+        "role": "Creative Head",
+        "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+      }
     ]
-}
-
+  },
+  "partners": {
+    "items": [
+      {
+        "image": "/img/client-1.png",
+        "alt": "img"
+      },
+      {
+        "image": "/img/client-2.png",
+        "alt": "img"
+      },
+      {
+        "image": "/img/client-3.png",
+        "alt": "img"
+      },
+      {
+        "image": "/img/client-4.png",
+        "alt": "img"
+      },
+      {
+        "image": "/img/client-5.png",
+        "alt": "img"
+      }
+    ]
+  },
+  "CTA": {
+    "title": "Ready to work together?",
+    "description": "You’re looking for a reliable construction partner or you’re looking to take the next step in your career, we want to hear from you!",
+    "image": {
+      "url": "/img/building-2.png",
+      "alt": "image"
+    },
+    "button": {
+      "link": "/contact",
+      "label": "Build a Project"
+    }
+  }
 }
