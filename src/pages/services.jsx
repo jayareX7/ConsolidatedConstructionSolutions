@@ -54,47 +54,47 @@ const Services = (props) => {
             </div>
             <div className="col-lg-8">
               <Tab.Content>
-                <Tab.Pane eventKey="tab-service-0" title="General Contracting">
+                <Tab.Pane eventKey="tab-service-0" title={Data.ourServices.item1.serviceName}>
                 <br/>
                 <br/>
                   <figure>
-                    <img className="w-100" src="/img/service3.jpeg" alt="Services Nav Image 1" />
+                    <img className="w-100" src={Data.ourServices.item1.img.image} alt={Data.ourServices.item1.img.alt} />
                     <figcaption>
                       <h3>{Data.ourServices.item1.serviceName}</h3>
                       <p>{Data.ourServices.item1.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
-                <Tab.Pane eventKey="tab-service-1" title="Construction Consultant">
+                <Tab.Pane eventKey="tab-service-1" title={Data.ourServices.item2.serviceName}>
                   <figure>
-                    <img className="w-100" src="/img/service7.jpeg" alt="Services Nav Image 2" />
+                    <img className="w-100" src={Data.ourServices.item2.img.image} alt={Data.ourServices.item2.img.alt} />
                     <figcaption>
                       <h3>{Data.ourServices.item2.serviceName}</h3>
                       <p>{Data.ourServices.item2.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
-                <Tab.Pane eventKey="tab-service-2" title="Metal Roofin">
+                <Tab.Pane eventKey="tab-service-2" title={Data.ourServices.item3.serviceName}>
                   <figure>
-                    <img className="w-100" src="/img/service2.jpeg" alt="Services Nav Image 3" />
+                    <img className="w-100" src={Data.ourServices.item3.img.image} alt={Data.ourServices.item3.img.alt} />
                     <figcaption>
                       <h3>{Data.ourServices.item3.serviceName}</h3>
                       <p>{Data.ourServices.item3.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
-                <Tab.Pane eventKey="tab-service-3" title="House Renovation">
+                <Tab.Pane eventKey="tab-service-3" title={Data.ourServices.item4.serviceName}>
                   <figure>
-                    <img className="w-100" src="/img/service9.jpeg" alt="Services Nav Image 4" />
+                    <img className="w-100" src={Data.ourServices.item4.img.image} alt={Data.ourServices.item4.img.alt} />
                     <figcaption>
                       <h3>{Data.ourServices.item4.serviceName}</h3>
                       <p>{Data.ourServices.item4.description}</p>
                     </figcaption>
                   </figure>
                 </Tab.Pane>
-                <Tab.Pane eventKey="tab-service-4" title="Green Building">
+                <Tab.Pane eventKey="tab-service-4" title={Data.ourServices.item5.serviceName}>
                   <figure>
-                    <img className="w-100" src="/img/service4.jpeg" alt="Services Nav Image 5" />
+                    <img className="w-100" src={Data.ourServices.item5.img.image} alt={Data.ourServices.item5.img.alt} />
                     <figcaption>
                       <h3>{Data.ourServices.item5.serviceName}</h3>
                       <p>{Data.ourServices.item5.description}</p>
