@@ -1096,22 +1096,66 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/posts",
+        path: "content/posts/projects",
         format: "md",
         fields: [
+          { type: 'string', label: 'Title', name: 'title',isTitle: true, required: true, },
+          { type: 'image', label: 'Image', name: 'image' },
+          { type: 'string', label: 'Short Description', name: 'short' },
+          { type: 'string', label: 'Location', name: 'location' },
+          { type: 'string', label: 'Dates', name: 'dates' },
+          
           {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
+            type: 'object',
+            label: 'Checklist',
+            name: 'checklist',
+            fields: [
+              { type: 'string', label: 'Title', name: 'title' },
+              {
+                type: "object",
+                label: 'Items',
+                name: 'items',
+                list: true,
+                fields: [{ type: 'string', label: 'Item', name: 'item' }],
+              },
+            ],
           },
           {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
+            type: 'object',
+            label: 'Details',
+            name: 'details',
+            fields: [
+              {
+                type: "object",
+                label: 'Items',
+                name: 'items',
+                list: true,
+                fields: [
+                  { type: 'string', label: 'Label', name: 'label' },
+                  { type: 'string', label: 'Value', name: 'value' },
+                  { type: 'string', label: 'Icon', name: 'icon' },
+                ],
+              },
+            ],
           },
+          {
+            type: 'object',
+            label: 'Slider',
+            name: 'slider',
+            fields: [
+              {
+                type: "object",
+                label: 'Items',
+                name: 'items',
+                list: true,
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                ],
+              },
+            ],
+          },
+          { type: 'rich-text', label: 'Body', name: 'body', isBody: true },
         ],
       },    
 
