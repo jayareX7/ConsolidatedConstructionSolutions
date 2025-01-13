@@ -918,47 +918,93 @@ export default defineConfig({
               { type: 'string', label: 'Title', name: 'title' },
               {
                 type: 'object',
-                label: 'Item 1',
+                label: 'Service 1',
                 name: 'item1',
                 fields: [
                   { type: 'string', label: 'Service Name', name: 'serviceName' },
                   { type: 'string', label: 'Description', name: 'description' },
+                  {
+                    type: 'object',
+                    label: 'Image',
+                    name: 'img',
+                    fields: [
+                      { type: 'image', label: 'Image URL', name: 'url' },
+                      { type: 'string', label: 'Alt', name: 'alt' },
+                    ],
+                  },
                 ],
+                
               },
               {
                 type: 'object',
-                label: 'Item 2',
+                label: 'Service 2',
                 name: 'item2',
                 fields: [
                   { type: 'string', label: 'Service Name', name: 'serviceName' },
                   { type: 'string', label: 'Description', name: 'description' },
+                  {
+                    type: 'object',
+                    label: 'Image',
+                    name: 'img',
+                    fields: [
+                      { type: 'image', label: 'Image URL', name: 'url' },
+                      { type: 'string', label: 'Alt', name: 'alt' },
+                    ],
+                  },
                 ],
               },
               {
                 type: 'object',
-                label: 'Item 3',
+                label: 'Service 3',
                 name: 'item3',
                 fields: [
                   { type: 'string', label: 'Service Name', name: 'serviceName' },
                   { type: 'string', label: 'Description', name: 'description' },
+                  {
+                    type: 'object',
+                    label: 'Image',
+                    name: 'img',
+                    fields: [
+                      { type: 'image', label: 'Image URL', name: 'url' },
+                      { type: 'string', label: 'Alt', name: 'alt' },
+                    ],
+                  },
                 ],
               },
               {
                 type: 'object',
-                label: 'Item 4',
+                label: 'Service 4',
                 name: 'item4',
                 fields: [
                   { type: 'string', label: 'Service Name', name: 'serviceName' },
                   { type: 'string', label: 'Description', name: 'description' },
+                  {
+                    type: 'object',
+                    label: 'Image',
+                    name: 'img',
+                    fields: [
+                      { type: 'image', label: 'Image URL', name: 'url' },
+                      { type: 'string', label: 'Alt', name: 'alt' },
+                    ],
+                  },
                 ],
               },
               {
                 type: 'object',
-                label: 'Item 5',
+                label: 'Service 5',
                 name: 'item5',
                 fields: [
                   { type: 'string', label: 'Service Name', name: 'serviceName' },
                   { type: 'string', label: 'Description', name: 'description' },
+                  {
+                    type: 'object',
+                    label: 'Image',
+                    name: 'img',
+                    fields: [
+                      { type: 'image', label: 'Image URL', name: 'url' },
+                      { type: 'string', label: 'Alt', name: 'alt' },
+                    ],
+                  },
                 ],
               },
             ],
