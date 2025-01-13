@@ -1,10 +1,16 @@
 {
+  "newsletter": {
+    "info": {
+      "title": "Newsletter",
+      "text": "Signup for our weekly newsletter to get the latest news."
+    }
+  },
   "siteSettings": {
     "siteName": "Consolidated Construction Solutions",
     "siteOwner": "Walimes Jonnie",
-    "siteTitle": "Director of Constro Company",
+    "siteTitle": "Director of Consolidated Construction Solutions",
     "ownerImage": {
-      "image": "/img/team-1.jpg",
+      "image": "/img/owner.jpg",
       "alt": "Bio Image"
     }
   },
@@ -18,11 +24,6 @@
       "alt": "logo"
     }
   },
-  "newsletter": {
-    "info": {
-    "title": "Newsletter",
-    "text": "Signup for our weekly newsletter to get the latest news."
-  }},
   "footerInfo": {
     "information": {
       "title": "Information",
@@ -34,11 +35,11 @@
       "tel": "(+180) 50 318 47 07",
       "email": "username@domain.com"
     },
-    "copy": "Consolidated Construction Solutions © 2025 <br> <a href='https://avxstudio.com'>Made with <i class='fa-solid fa-heart'></i> By AVX Studio, LLC.</a> All rights reserved",
     "newsletter": {
       "title": "Newsletter",
       "text": "Signup for our weekly newsletter to get the latest news."
-    }
+    },
+    "copy": "Consolidated Construction Solutions © 2025 <br> <a href='https://avxstudio.com'>Made with <i class='fa-solid fa-heart'></i> By AVX Studio, LLC.</a> All rights reserved"
   },
   "header": {
     "sidebarMenu": {
