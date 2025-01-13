@@ -1,65 +1,57 @@
 {
-    
   "ourServices": {
     "title": "Construction Services",
-    "item1":
-    {
-    "serviceName": "General Contracting",
-    "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
+    "item1": {
+      "serviceName": "General Contracting",
+      "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/service3.jpeg",
+        "url": "/img/services/generalcontracting.jpg",
         "alt": "Services Nav Image 1"
-        }
+      }
     },
-    "item2":
-    {
+    "item2": {
       "serviceName": "Construction Consultant",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/service7.jpeg",
+        "url": "/img/services/consulting.jpg",
         "alt": "Services Nav Image 2"
-        }
-      },
-      "item3":
-    {
+      }
+    },
+    "item3": {
       "serviceName": "Metal Roofing",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/service2.jpeg",
+        "url": "/img/services/roofing.jpg",
         "alt": "Services Nav Image 3"
-        }
-      },
-      "item4":
-    {
+      }
+    },
+    "item4": {
       "serviceName": "House Renovation",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/service9.jpeg",
+        "url": "/img/services/houserenovation.jpg",
         "alt": "Services Nav Image 4"
-        }
-      },
-      "item5":
-    {
+      }
+    },
+    "item5": {
       "serviceName": "Green Building",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/service4.jpeg",
+        "url": "/img/services/greenhouse.jpg",
         "alt": "Services Nav Image 5"
-        }
       }
-     },
-
-    "additionalServices": {
-      "title": "Additional Services",
-      "subtitle": "What We Provide"
-    },
-
-  "contactSubject": {
-      "bg_image": "/img/project8.jpeg",
-      "title": "Choose A Topic",
-      "subject1": "Subject1",
-      "subject2": "Subject2",
-      "subject3": "Subject3",
-      "subject4": "Subject4"
     }
+  },
+  "additionalServices": {
+    "title": "Additional Services",
+    "subtitle": "What We Provide"
+  },
+  "contactSubject": {
+    "bg_image": "/img/project8.jpeg",
+    "title": "Choose A Topic",
+    "subject1": "Subject1",
+    "subject2": "Subject2",
+    "subject3": "Subject3",
+    "subject4": "Subject4"
+  }
 }
