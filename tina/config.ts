@@ -1157,21 +1157,6 @@ export default defineConfig({
           },
           {
             type: 'object',
-            label: 'Checklist',
-            name: 'checklist',
-            fields: [
-              { type: 'boolean', label: 'Enabled', name: 'enabled' },
-              { type: 'string', label: 'Title', name: 'title' },
-              {
-                type: 'object',
-                label: 'Items',
-                name: 'items',
-                fields: [{ type: 'string', label: 'Item', name: 'item' }],
-              },
-            ],
-          },
-          {
-            type: 'object',
             label: 'Accordion',
             name: 'accordion',
             fields: [
