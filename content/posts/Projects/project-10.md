@@ -6,37 +6,30 @@ short: >-
   office…
 location: Australia
 dates: 2009-2010
-checklist:
-  title: What's Included in Project
-  items:
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
+
 details:
   items:
     - label: Sectors
       value: Affordable Housing
-      icon: /img/icon-pd-1.svg
+      icon: /img/services/icon-pd-1.svg
     - label: Owner
       value: Communities Development
-      icon: /img/icon-pd-2.svg
+      icon: /img/services/icon-pd-2.svg
     - label: Square Feet
       value: 'Phase 1: 147,000 - Phase 2: 147,000'
-      icon: /img/icon-pd-3.svg
+      icon: /img/services/icon-pd-3.svg
     - label: Project Date
       value: 'Started: 1990 - Ending: 2000'
-      icon: /img/icon-pd-4.svg
+      icon: /img/services/icon-pd-4.svg
 slider:
   items:
-    - image: /img/project10.jpeg
+    - image: /img/projects/douglas-sheppard-unsplash.jpg
       alt: image
-    - image: /img/project2.jpeg
+    - image: /img/projects/kara-eads-unsplash.jpg
       alt: image
-    - image: /img/project8.jpeg
+    - image: /img/projects/kenny-eliason-unsplash.jpg
       alt: image
-    - image: /img/project7.jpeg
+    - image: /img/projects/jolene-hardy-unsplash.jpg
       alt: image
 ---
 
