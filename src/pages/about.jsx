@@ -41,7 +41,7 @@ const About = () => {
                   <p>{Data.aboutUs.text}</p>
                 </div>
                 <figure>
-                  <img className="w-100" src="/img/gallery-1.jpeg" alt="About Image One" />
+                  <img className="w-100" src={Data.aboutUs.aboutImage1.image} alt={Data.aboutUs.aboutImage1.alt} />
                 </figure>
               </div>
             </div>
@@ -58,7 +58,7 @@ const About = () => {
                   </ul>
                 </div>
                 <figure>
-                  <img className="w-100" src="/img/gallery-3.jpeg" alt="About Image Two" />
+                  <img className="w-100" src={Data.aboutUs.aboutImage2.image} alt={Data.aboutUs.aboutImage1.alt}  />
                 </figure>
               </div>
             </div>
