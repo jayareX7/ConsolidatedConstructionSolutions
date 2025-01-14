@@ -1065,19 +1065,33 @@ button.scrollTopStick:hover i {
 /* 3. About Style One Start */
 .about-style-one .about-data-left {
     padding-top: 60px;
-    display: flex;
+    display: grid;
     align-items: flex-end;
     position: relative;
+    z-index: 1;
+}
+
+.about-data-left .about-style-two {
+grid-column: -6 / span 8;
+grid-row: 1;
+z-index: 1;
+display: grid;
+position: relative;
+
 }
 .about-style-one .about-data-left img {
     width: 100%;
 }
 .about-style-one .about-data-left .about-image {
-    margin-left: 15px;
+    margin-left: 50%;
     margin-bottom: -60px;
+    grid-column: -2 / 5;
+    grid-row: 1;
+    z-index: 3;
 }
 .about-style-one .about-data-left figure:nth-child(2) {
-    width: 55%;
+    width: 50%;
+    margin-bottom: -10%;
 }
 .about-style-one .about-data-left:before {
     content: "";
@@ -1107,7 +1121,7 @@ button.scrollTopStick:hover i {
     padding-top: 130px;
 }
 .about-style-one .about-data-right .about-info {
-    padding-left: 110px;
+    padding-left: 0px;
 }
 .about-style-one .about-data-right .about-info p {
     margin-bottom: 30px;
