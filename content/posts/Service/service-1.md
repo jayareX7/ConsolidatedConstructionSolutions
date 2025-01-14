@@ -31,12 +31,13 @@ checklist:
   enabled: true
   title: What can we support with?
   items:
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
+    - Dedication to client satisfaction
+    - Dedication to client satisfaction
+    - Dedication to client satisfaction
+    - Dedication to client satisfaction
+    - Dedication to client satisfaction
+    - Dedication to client satisfaction
+    
 accordion:
   enabled: true
   title: Reporting and Cost Control
