@@ -22,34 +22,19 @@ description0:
     </ul>
   "
 
-gallery: 
+gallery:
   enabled: true
   items:
-      - image: /img/gallery-5.jpeg
-        alt: "image"
-
-      - image: /img/gallery-4.jpeg
-        alt: "image"
-
-      - image: /img/gallery-3.jpeg
-        alt: "image"
-
-      - image: /img/gallery-2.jpeg
-        alt: "image"
-
-      - image: /img/gallery-1.jpeg
-        alt: "image"          
-
-checklist:
-  enabled: true
-  title: What can we support with?
-  items:
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
-    - Dedication to client satisfaction
+    - image: /img/services/generalcontracting.jpg
+      alt: image
+    - image: /img/services/greenhouse.jpg
+      alt: image
+    - image: /img/services/consulting.jpg
+      alt: image
+    - image: /img/services/houserenovation.jpg
+      alt: image
+    - image: /img/services/roofing.jpg
+      alt: image
 
 accordion:
   enabled: true
