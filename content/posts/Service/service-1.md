@@ -9,15 +9,15 @@ description0:
 gallery:
   enabled: true
   items:
-    - image: /img/services/generalcontracting.jpg
+    - image: /img/services/consulting.jpg
       alt: image
     - image: /img/services/greenhouse.jpg
       alt: image
-    - image: /img/services/consulting.jpg
-      alt: image
-    - image: /img/services/houserenovation.jpg
+    - image: /img/services/generalcontracting.jpg
       alt: image
     - image: /img/services/roofing.jpg
+      alt: image
+    - image: /img/services/houserenovation.jpg
       alt: image
 accordion:
   enabled: true
