@@ -1,7 +1,7 @@
 ---
 #preview
 title: Project Horizon Redevelopment
-image: /img/project1.jpeg
+image: /img/projects/webaliser-unsplash.jpg
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 location: "United States"
 dates: "1999-2000"
