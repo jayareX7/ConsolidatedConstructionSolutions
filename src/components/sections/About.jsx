@@ -7,7 +7,7 @@ const AboutSection = () => {
           <div className="row">
             <div className="col-lg-6" >
               <div className="about-data-left">
-                <figure>
+                <figure className="about-style-two">
                   <img src={Data.aboutSection1.image1.url} alt={Data.aboutSection1.image1.alt} />
                 </figure>
                 <figure className="about-image">
