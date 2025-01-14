@@ -425,7 +425,7 @@ export default defineConfig({
                 label: 'Image',
                 name: 'image',
                 fields: [
-                  { type: 'string', label: 'URL', name: 'url' },
+                  { type: 'image', label: 'URL', name: 'url' },
                   { type: 'string', label: 'Alt', name: 'alt' },
                 ],
               },
@@ -596,6 +596,14 @@ export default defineConfig({
               { type: 'string', label: 'Subtitle', name: 'subtitle' },
               { type: 'string', label: 'Text', name: 'text' },
               { type: 'string', label: 'List Title', name: 'listTitle' },
+              {type: 'object',
+                label: 'About Us Image One',
+                name: 'aboutImage1',
+                fields: [ 
+              { type: 'image', label: 'About Us Image', name: 'image' },
+              { type: 'string', label: 'alt', name: 'alt' },
+                ],
+              },
               {
                 type: 'object',
                 label: 'List Items',
@@ -611,6 +619,14 @@ export default defineConfig({
                   { type: 'string', label: 'List Item 3', name: 'listText3' },
                   { type: 'string', label: 'List Item 4', name: 'listText4' },
                   { type: 'string', label: 'List Item 5', name: 'listText5' },
+                ],
+              },
+              {type: 'object',
+                label: 'About Us Image Two',
+                name: 'aboutImage2',
+                fields: [ 
+              { type: 'image', label: 'About Us Image', name: 'image' },
+              { type: 'string', label: 'alt', name: 'alt' },
                 ],
               },
             ],
@@ -895,7 +911,7 @@ export default defineConfig({
 
       {
         label: 'Services',
-        name: 'services',
+        name: 'service',
         path: 'content/services',
         format: 'json',
         ui: {
@@ -1011,6 +1027,15 @@ export default defineConfig({
           },
           {
             type: 'object',
+            label: 'Service Video Background Image',
+            name: 'serviceVideo',
+            fields: [
+              { type: 'image', label: 'Background Image', name: 'img' },
+              { type: 'string', label: 'Alt', name: 'alt' },
+            ],
+          },
+          {
+            type: 'object',
             label: 'Additional Services',
             name: 'additionalServices',
             fields: [
@@ -1092,7 +1117,81 @@ export default defineConfig({
         ],
       },
        
-
+      {
+        label: 'Service Post',
+        name: 'services',
+        path: 'content/posts/service',
+        format: 'md',
+        fields: [
+          { type: 'image', label: 'Image', name: 'image' },
+          { type: 'string', label: 'Title', name: 'title' },
+          { type: 'string', label: 'Short Description', name: 'short' },
+          {
+            type: 'object',
+            label: 'Description',
+            name: 'description0',
+            fields: [
+              { type: 'boolean', label: 'Enabled', name: 'enabled' },
+              { type: 'string', label: 'Text 1', name: 'text1', ui: { component: 'textarea' } },
+              { type: 'string', label: 'Text 2', name: 'text2', ui: { component: 'textarea' } },
+            ],
+          },
+          {
+            type: 'object',
+            label: 'Gallery',
+            name: 'gallery',
+            fields: [
+              { type: 'boolean', label: 'Enabled', name: 'enabled' },
+              {
+                type: 'object',
+                label: 'Items',
+                name: 'items',
+                list: true,
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                ],
+              },
+            ],
+          },
+          {
+            type: 'object',
+            label: 'Checklist',
+            name: 'checklist',
+            fields: [
+              { type: 'boolean', label: 'Enabled', name: 'enabled' },
+              { type: 'string', label: 'Title', name: 'title' },
+              {
+                type: 'object',
+                label: 'Items',
+                name: 'items',
+                list: true,
+                fields: [{ type: 'string', label: 'Item', name: 'item' }],
+              },
+            ],
+          },
+          {
+            type: 'object',
+            label: 'Accordion',
+            name: 'accordion',
+            fields: [
+              { type: 'boolean', label: 'Enabled', name: 'enabled' },
+              { type: 'string', label: 'Title', name: 'title' },
+              {
+                type: 'object',
+                label: 'Items',
+                name: 'items',
+                list: true,
+                fields: [
+                  { type: 'string', label: 'Heading', name: 'heading' },
+                  { type: 'string', label: 'Content', name: 'content', ui: { component: 'textarea' } },
+                ],
+              },
+            ],
+          },
+          { type: 'rich-text', label: 'Body', name: 'body', isBody: true },
+        ],
+      },
       {
         name: "post",
         label: "Posts",
