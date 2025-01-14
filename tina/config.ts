@@ -1,4 +1,5 @@
 import { defineConfig } from "tinacms";
+import Icon from "../src/components/Icons";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -740,7 +741,7 @@ export default defineConfig({
                           },
                           fields: [
                             { type: 'string', label: 'Link', name: 'link' },
-                            { type: 'string', label: 'Icon', name: 'icon' },
+                            { type: 'image', label: 'Icon', name: 'icon' },
                             { type: 'string', label: 'Title', name: 'title' },
                           ],
                         },
@@ -881,7 +882,7 @@ export default defineConfig({
                 fields: [
                   { type: 'string', label: 'Label', name: 'label' },
                   { type: 'string', label: 'Value', name: 'value' },
-                  { type: 'string', label: 'Icon', name: 'icon' },
+                  { type: 'image', label: 'Icon', name: 'icon' },
                 ],
               },
             ],
@@ -1165,7 +1166,6 @@ export default defineConfig({
                 type: 'object',
                 label: 'Items',
                 name: 'items',
-                list: true,
                 fields: [{ type: 'string', label: 'Item', name: 'item' }],
               },
             ],
@@ -1204,21 +1204,7 @@ export default defineConfig({
           { type: 'string', label: 'Location', name: 'location' },
           { type: 'string', label: 'Dates', name: 'dates' },
           
-          {
-            type: 'object',
-            label: 'Checklist',
-            name: 'checklist',
-            fields: [
-              { type: 'string', label: 'Title', name: 'title' },
-              {
-                type: "object",
-                label: 'Items',
-                name: 'items',
-                list: true,
-                fields: [{ type: 'string', label: 'Item', name: 'item' }],
-              },
-            ],
-          },
+          
           {
             type: 'object',
             label: 'Details',
@@ -1232,7 +1218,7 @@ export default defineConfig({
                 fields: [
                   { type: 'string', label: 'Label', name: 'label' },
                   { type: 'string', label: 'Value', name: 'value' },
-                  { type: 'string', label: 'Icon', name: 'icon' },
+                  { type: 'image', label: 'Icon', name: 'icon' },
                 ],
               },
             ],
@@ -1254,7 +1240,20 @@ export default defineConfig({
               },
             ],
           },
-          { type: 'rich-text', label: 'Body', name: 'body', isBody: true },
+          { type: 'rich-text', label: 'Body', name: 'body', isBody: true,
+            templates: [
+            {
+              name: 'Icon',
+              label: 'Icon',
+              fields: [{
+                type: 'string',
+                label: 'Dummy Field',
+                name: 'dummyField',
+                required: false,
+              },],
+            },
+          ],  }
+          ,
         ],
       },    
 
