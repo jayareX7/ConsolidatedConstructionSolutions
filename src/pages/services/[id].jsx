@@ -16,7 +16,7 @@ const ServiceDetail = ( { postData } ) => {
           
           {typeof postData.description0 != "undefined" &&
             <>
-              {postData.description0.enabled == 1 &&
+              {postData.description0.enabled == true &&
               <div className="row">
                 <div className="col-lg-6">
                   <div className="who-we-are">
@@ -35,7 +35,7 @@ const ServiceDetail = ( { postData } ) => {
 
           {typeof postData.gallery != "undefined" &&
             <>
-              {postData.gallery.enabled == 1 &&
+              {postData.gallery.enabled == true &&
               <div className="row s-d-gallery">
                 {postData.gallery.items.map((item, key) => (
                 <div key={`gallery-item-${key}`} className={key == 0 ? "col-lg-12" : "col-lg-3 col-md-6 col-sm-12"}>
@@ -62,7 +62,7 @@ const ServiceDetail = ( { postData } ) => {
           
           {typeof postData.checklist != "undefined" &&
             <>
-              {postData.checklist.enabled == 1 &&
+              {postData.checklist.enabled == true &&
               <div className="row">
                 <div className="col-lg-12">
                   <h3>{postData.checklist.title}</h3>
@@ -84,7 +84,7 @@ const ServiceDetail = ( { postData } ) => {
 
           {typeof postData.accordion != "undefined" &&
             <>
-              {postData.accordion.enabled == 1 &&
+              {postData.accordion.enabled == true &&
               <div className="row">
                   <div className="col-lg-12">
                       <h3>{postData.accordion.title}</h3>

@@ -42,12 +42,16 @@
       }
     }
   },
+  "serviceVideo": {
+    "img": "/img/contact/contact.jpg",
+    "alt": "Video PopUp Image"
+  },
   "additionalServices": {
     "title": "Additional Services",
     "subtitle": "What We Provide"
   },
   "contactSubject": {
-    "bg_image": "/img/contact/contact.jpg",
+    "bg_image": "/img/projects/pexels-pixabay.jpg",
     "title": "Choose A Topic",
     "subject1": "Subject1",
     "subject2": "Subject2",
