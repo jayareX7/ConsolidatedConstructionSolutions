@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/img/serv-i-1.svg"
+image: "/img/services/serv-i-1.svg"
 title: "Construction"
 short: "Designing and Building The Most Beautiful Custom Homes."
 

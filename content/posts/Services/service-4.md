@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/serv-i-2.svg"
+image: "img/services/serv-i-2.svg"
 title: "Project Development"
 short: "Designing and Building The Most Beautiful Custom Homes."
 

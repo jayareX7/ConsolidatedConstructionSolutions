@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/serv-i-3.svg"
+image: "img/services/serv-i-3.svg"
 title: "Interior Design"
 short: "Designing and Building The Most Beautiful Custom Homes."
 

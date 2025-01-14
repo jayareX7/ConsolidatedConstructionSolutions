@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/serv-i-4.svg"
+image: "img/services/serv-i-4.svg"
 title: "Welding & Laser"
 short: "Designing and Building The Most Beautiful Custom Homes."
 
