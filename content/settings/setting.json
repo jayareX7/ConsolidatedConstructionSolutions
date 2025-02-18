@@ -10,7 +10,7 @@
     "siteOwner": "Walimes Jonnie",
     "siteTitle": "Director of Consolidated Construction Solutions",
     "ownerImage": {
-      "image": "/img/owner.jpg",
+      "image": "/img/team/owner.jpg",
       "alt": "Bio Image"
     }
   },
@@ -39,7 +39,7 @@
       "title": "Newsletter",
       "text": "Signup for our weekly newsletter to get the latest news."
     },
-    "copy": "Consolidated Construction Solutions © 2025 <br> <a href='https://avxstudio.com'>Made with <i class='fa-solid fa-heart'></i> By AVX Studio, LLC.</a> All rights reserved"
+    "copy": "Consolidated Construction Solutions © 2025 <br> <a href='https://avxstudios.com'>Made with <i class='fa-solid fa-heart'></i> By AVX Studio, LLC.</a> All rights reserved"
   },
   "header": {
     "sidebarMenu": {
