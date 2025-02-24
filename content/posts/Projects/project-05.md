@@ -38,16 +38,8 @@ I learned that this waste product could be stabilised, reducing the potential fo
 
 ### What's Included in Project
 
-
-
-Dedication to client satisfaction 
-
-
-
-Teamwork and collabration         
-
-Being leader in our profession         
-
-Teamwork and collabration       
-
-Pride in our works and excellences
+* Dedication to client satisfaction 
+* Teamwork and collabration         
+* Being leader in our profession         
+* Teamwork and collabration       
+* Pride in our works and excellences

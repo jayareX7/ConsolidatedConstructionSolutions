@@ -200,8 +200,6 @@ export default defineConfig({
           },
         },
       },
-
-
     
  
       {
@@ -846,39 +844,34 @@ export default defineConfig({
 
 
       {
-        name: "project",
+        name: "post",
         label: "Projects",
-        path: "content/projects",
+        path: "content/posts/projects",
+        format: "md",
+        
         fields: [
-          { type: 'string', label: 'Title', name: 'title', isTitle: true, required: true },
+          { type: 'string', label: 'Title', name: 'title',isTitle: true, required: true, },
           { type: 'image', label: 'Image', name: 'image' },
           { type: 'string', label: 'Short Description', name: 'short' },
           { type: 'string', label: 'Location', name: 'location' },
           { type: 'string', label: 'Dates', name: 'dates' },
-          {
-            type: 'object',
-            label: 'Checklist',
-            name: 'checklist',
-            fields: [
-              { type: 'string', label: 'Title', name: 'title' },
-              {
-                type: 'string',
-                label: 'Items',
-                name: 'items',
-                list: true,
-              },
-            ],
-          },
+          
+          
           {
             type: 'object',
             label: 'Details',
             name: 'details',
             fields: [
               {
-                type: 'object',
+                type: "object",
                 label: 'Items',
                 name: 'items',
                 list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.value || "New Item",
+                  }),
+                },
                 fields: [
                   { type: 'string', label: 'Label', name: 'label' },
                   { type: 'string', label: 'Value', name: 'value' },
@@ -893,20 +886,26 @@ export default defineConfig({
             name: 'slider',
             fields: [
               {
-                type: 'object',
-                label: 'Items',
+                type: "object",
+                label: 'Slide',
                 name: 'items',
                 list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.image || "New Item",
+                  }),
+                },
                 fields: [
                   { type: 'image', label: 'Image', name: 'image' },
-                  { type: 'string', label: 'Alt', name: 'alt' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
                 ],
               },
             ],
           },
-          { type: 'rich-text', label: 'Body', name: 'body', isBody: true },
+          { type: 'rich-text', label: 'Body', name: 'body', isBody: true,},
         ],
-      },
+      },    
+ 
 
 
 
@@ -1061,6 +1060,79 @@ export default defineConfig({
       },
 
       {
+        label: 'Service List',
+        name: 'services',
+        path: 'content/posts/service',
+        format: 'md',
+        fields: [
+          { type: 'string', label: 'Title', name: 'title', isTitle: true, required: true,  },
+          { type: 'image', label: 'Image', name: 'image' },
+          { type: 'string', label: 'Short Description', name: 'short' },
+          {
+            type: 'object',
+            label: 'Description',
+            name: 'description0',
+            fields: [
+              { type: 'boolean', label: 'Enabled', name: 'enabled' },
+              { type: 'rich-text', label: 'Description 1', name: 'text1', isBody: true },
+              { type: 'rich-text', label: 'Description 2', name: 'text2', isBody: true },
+            ],
+          },
+          {
+            type: 'object',
+            label: 'Gallery',
+            name: 'gallery',
+            fields: [
+              { type: 'boolean', label: 'Enabled', name: 'enabled' },
+              {
+                type: 'object',
+                label: 'Service Images',
+                name: 'items',
+                list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.image || "New Item",
+                  }),
+                },
+                fields: [
+                  { type: 'image', label: 'Image', name: 'image' },
+                  { type: 'string', label: 'Alt Text', name: 'alt' },
+                ],
+              },
+            ],
+          },
+          {
+            type: 'object',
+            label: 'Accordion',
+            name: 'accordion',
+            fields: [
+              { type: 'boolean', label: 'Enabled', name: 'enabled' },
+              { type: 'string', label: 'Title', name: 'title' },
+              {
+                type: 'object',
+                label: 'Service FAQs',
+                name: 'items',
+                list: true,
+                ui: {
+                  itemProps: (item) => ({
+                    label: item?.heading || "New Item",
+                  }),
+                },
+                fields: [
+                  { type: 'string', label: 'Heading', name: 'heading' },
+                  { type: 'string', label: 'Content', name: 'content', ui: { component: 'textarea' } },
+                ],
+              },
+            ],
+          },
+          { type: 'rich-text', label: 'Body', name: 'body', isBody: true },
+        ],
+      },
+     
+    
+
+
+      {
         label: "Contact",
         name: "contact",
         path: "content/contact",
@@ -1118,132 +1190,32 @@ export default defineConfig({
         ],
       },
        
+
       {
-        label: 'Service Post',
-        name: 'services',
-        path: 'content/posts/service',
-        format: 'md',
-        fields: [
-          { type: 'image', label: 'Image', name: 'image' },
-          { type: 'string', label: 'Title', name: 'title' },
-          { type: 'string', label: 'Short Description', name: 'short' },
-          {
-            type: 'object',
-            label: 'Description',
-            name: 'description0',
-            fields: [
-              { type: 'boolean', label: 'Enabled', name: 'enabled' },
-              { type: 'string', label: 'Text 1', name: 'text1', ui: { component: 'textarea' } },
-              { type: 'string', label: 'Text 2', name: 'text2', ui: { component: 'textarea' } },
-            ],
-          },
-          {
-            type: 'object',
-            label: 'Gallery',
-            name: 'gallery',
-            fields: [
-              { type: 'boolean', label: 'Enabled', name: 'enabled' },
-              {
-                type: 'object',
-                label: 'Items',
-                name: 'items',
-                list: true,
-                fields: [
-                  { type: 'image', label: 'Image', name: 'image' },
-                  { type: 'string', label: 'Alt Text', name: 'alt' },
-                ],
-              },
-            ],
-          },
-          {
-            type: 'object',
-            label: 'Accordion',
-            name: 'accordion',
-            fields: [
-              { type: 'boolean', label: 'Enabled', name: 'enabled' },
-              { type: 'string', label: 'Title', name: 'title' },
-              {
-                type: 'object',
-                label: 'Items',
-                name: 'items',
-                list: true,
-                fields: [
-                  { type: 'string', label: 'Heading', name: 'heading' },
-                  { type: 'string', label: 'Content', name: 'content', ui: { component: 'textarea' } },
-                ],
-              },
-            ],
-          },
-          { type: 'rich-text', label: 'Body', name: 'body', isBody: true },
-        ],
-      },
-      {
-        name: "post",
-        label: "Posts",
-        path: "content/posts/projects",
+        name: "terms",
+        label: "Terms & Conditions",
+        path: "content/posts/terms",
         format: "md",
+        
         fields: [
           { type: 'string', label: 'Title', name: 'title',isTitle: true, required: true, },
-          { type: 'image', label: 'Image', name: 'image' },
-          { type: 'string', label: 'Short Description', name: 'short' },
-          { type: 'string', label: 'Location', name: 'location' },
-          { type: 'string', label: 'Dates', name: 'dates' },
-          
-          
-          {
-            type: 'object',
-            label: 'Details',
-            name: 'details',
-            fields: [
-              {
-                type: "object",
-                label: 'Items',
-                name: 'items',
-                list: true,
-                fields: [
-                  { type: 'string', label: 'Label', name: 'label' },
-                  { type: 'string', label: 'Value', name: 'value' },
-                  { type: 'image', label: 'Icon', name: 'icon' },
-                ],
-              },
-            ],
-          },
-          {
-            type: 'object',
-            label: 'Slider',
-            name: 'slider',
-            fields: [
-              {
-                type: "object",
-                label: 'Items',
-                name: 'items',
-                list: true,
-                fields: [
-                  { type: 'image', label: 'Image', name: 'image' },
-                  { type: 'string', label: 'Alt Text', name: 'alt' },
-                ],
-              },
-            ],
-          },
-          { type: 'rich-text', label: 'Body', name: 'body', isBody: true,
-            templates: [
-            {
-              name: 'Icon',
-              label: 'Icon',
-              fields: [{
-                type: 'string',
-                label: 'Dummy Field',
-                name: 'dummyField',
-                required: false,
-              },],
-            },
-          ],  }
-          ,
+          { type: 'string', label: 'Sub-Title', name: 'subtitle' },
+          { type: 'rich-text', label: 'Body', name: 'body', isBody: true,},
+        ],
+      },   
+      
+      {
+        name: "privacy",
+        label: "Privacy Policy",
+        path: "content/posts/privacy",
+        format: "md",
+        
+        fields: [
+          { type: 'string', label: 'Title', name: 'title',isTitle: true, required: true, },
+          { type: 'string', label: 'Sub-Title', name: 'subtitle' },
+          { type: 'rich-text', label: 'Body', name: 'body', isBody: true,},
         ],
       },    
-
-    
-
 
 
     ],

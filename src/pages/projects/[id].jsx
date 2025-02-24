@@ -70,7 +70,7 @@ const ProjectDetail = ( props ) => {
                 </div>
 
                 {postData.contentHtml != "" &&
-                <div dangerouslySetInnerHTML={{__html : postData.contentHtml}} />
+                <div dangerouslySetInnerHTML={{__html : postData.contentHtml}} className="checklist"  />
                 }
                 
                 {typeof postData.checklist != "undefined" &&

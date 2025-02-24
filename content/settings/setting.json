@@ -90,6 +90,18 @@
       "link": "https://linkedin.com"
     }
   ],
+  "terms": [
+    {
+      "title": "Terms & Conditions",
+      "link": "/terms/conditions"
+    }
+  ],
+  "privacy": [
+    {
+      "title": "Privacy Policy",
+      "link": "privacy/policy/"
+    }
+  ],
   "formspreeURL": {},
   "mailchimp": {
     "url": "https://mailchimp.com/",

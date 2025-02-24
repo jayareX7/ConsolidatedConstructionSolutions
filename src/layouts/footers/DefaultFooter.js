@@ -69,8 +69,22 @@ const DefaultFooter = () => {
             </div>
             </div>
         </div>
-        </div>
-    </footer>
+
+            <div className="container">
+                <div className="footer-terms">
+                <div className="social-medias">
+                {appData.terms.map((item, key) => (
+                    <a href={item.link} target="_blank" key={`terms-item-${key}`}>{item.title}</a>
+                    ))}
+                    {appData.privacy.map((item, key) => (
+                    <a href={item.link} target="_blank" key={`privacy-item-${key}`}>{item.title}</a>
+                    ))}         
+                </div>
+                </div> 
+            </div>
+
+    </div>
+</footer>
   );
 };
 export default DefaultFooter;

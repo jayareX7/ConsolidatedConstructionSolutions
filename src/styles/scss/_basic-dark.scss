@@ -97,6 +97,25 @@ body.light-d .counter-style-one .counter-data .count i{
     color: $grey;
     -webkit-text-fill-color: $grey;
 }
+
+body.light-d .heading h2, 
+body.light-d .heading-style-2 .data h2,
+body.light-d .about-style-one .about-data-right h2,
+body.light-d .cta-section .cta-data h2,
+body.light-d .blog-style-three .blog-heading h2,
+body.light-d .heading.heading-style-3 h2 span,
+body.light-d .about-first h2,
+body.light-d .about-key-benefits .data h2,
+body.light-d .client-review-slider .slider-data h3,
+body.light-d .revolution .head h2,
+body.light-d .contact-form-2 .data h2,
+body.light-d .client-review-style-one .head-review h3
+ {
+    font-size: 45px;
+    color: $white;
+}
+
+
 body.light-d .about-style-one .about-data-right span,
 body.light-d p,
 body.light-d .about-style-one .about-data-right .about-info h3,
@@ -147,8 +166,30 @@ body.light-d .client-review-slider .slider-data .bio .details p,
 body.light-d .client-review-style-one .head-review span,
 body.light-d .project-completed .proj-data h3
 {
-    color: $grey;
+    color: $accent-2;
 }
+
+body.light-d .acc2 .accordion-item button {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Construktor";
+    color: #644a1d;
+    background: $accent-1;
+    height: 80px;
+    padding-left: 30px;
+    position: relative;
+}
+body.light-d .contact-form-2 .bio .data p {
+    margin-bottom: 15px;
+    color: $white;
+}
+
+body.light-d .contact-form-2 .data span {
+    font-size: 16px;
+    color: $accent-1;
+    font-family: "Construktor";
+}
+
 body.light-d .project-style-one,
 body.light-d .shop-style-one,
 body.light-d .certificates .c-slider .c-main .c-first,
@@ -175,12 +216,35 @@ body.light-d .team-detail .team-data .t-tel,
 body.light-d .blog-style-two .blog-item:before,
 body.light-d .blog-style-two .swiper-slide.swiper-slide-active .blog-item:before,
 body.light-d .construction-services .tab-content>.tab-pane figure figcaption {
-    background-color: $dark-bg;
+    background-color: $grey;
 }
 body.light-d .counter-style-one .counter-data h4,body.light-d .team-style-one .team-data .team-info p{
-    color: $grey;
-    -webkit-text-fill-color:$grey;
+    color: $white;
+    -webkit-text-fill-color:$white;
 }
+
+body.light-d .history .h-box h2 {
+    font-size: 90px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $white;
+    margin-top: 8px;
+}
+
+ 
+ul,
+body.light-d li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: $white;
+
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+
 body.light-d .counter-style-one,
 body.light-d .project-style-one .project-post .project-data,
 body.light-d .core-features,

@@ -6,7 +6,6 @@ short: >-
   office…
 location: Melbourne
 dates: 1999-2001
-
 details:
   items:
     - label: Sectors
@@ -36,3 +35,11 @@ slider:
 Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
 
 I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+
+### What's Included in Project
+
+* Dedication to client satisfaction 
+* Teamwork and collabration         
+* Being leader in our profession         
+* Teamwork and collabration       
+* Pride in our works and excellences

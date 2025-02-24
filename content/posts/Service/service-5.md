@@ -1,11 +1,21 @@
 ---
-image: img/services/serv-i-5.svg
 title: Architecture
+image: img/services/serv-i-5.svg
 short: Designing and Building The Most Beautiful Custom Homes.
 description0:
   enabled: true
-  text1: ' <h3>Service Details</h3> <p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.  Our portfolio includes <span>dozens of successfully</span> completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p> '
-  text2: ' <h3>Service Benefits</h3> <ul> <li>Better defined projects, reducing risk and increasing success</li> <li>We provide legislative compliance</li> <li>Cost savings by getting expert advice during the project strategy and estimating</li> <li>Realistic pricing and project timescales</li> <li>Global access to services from world-wide construction consultancy</li> </ul> '
+  text1: |2
+     <h3>Service Details</h3> 
+     <p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.  Our portfolio includes <span>dozens of successfully</span> completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p> 
+  text2: |2
+     <h3>Service Benefits</h3> 
+     <ul> 
+     <li>Better defined projects, reducing risk and increasing success</li> 
+     <li>We provide legislative compliance</li> 
+     <li>Cost savings by getting expert advice during the project strategy and estimating</li> 
+     <li>Realistic pricing and project timescales</li> 
+     <li>Global access to services from world-wide construction consultancy</li> 
+     </ul> 
 gallery:
   enabled: true
   items:
