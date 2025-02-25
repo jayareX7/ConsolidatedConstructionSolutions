@@ -6,7 +6,7 @@ const About2Section = () => {
       <section className="gap our-goal">
         <div className="heading">
           <figure>
-            <img src="/img/heading-icon.png" alt="heading-icon" />
+            <img src="/image/heading-icon.png" alt="heading-icon" />
           </figure>
           <span>{Data.aboutSection2.subtitle}</span>
           <h2>{Data.aboutSection2.title}</h2>
