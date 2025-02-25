@@ -12,6 +12,9 @@ register();
 function MyApp({ Component, pageProps }) {
   return (
     <>
+
+
+    
       <Head>
           {/* seo begin */}
           <title>{appData.siteSettings.siteName}</title>

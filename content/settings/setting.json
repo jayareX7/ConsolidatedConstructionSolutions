@@ -15,12 +15,12 @@
     }
   },
   "preloader": {
-    "image": "/image/CCS-Logo-Black-Home.svg",
+    "image": "/images/CCS-Logo-Black-Home.svg",
     "alt": "logo"
   },
   "companyLogo": {
     "logo": {
-      "image": "/image/CCS-Logo.svg",
+      "image": "/images/CCS-Logo.svg",
       "alt": "logo"
     }
   },
