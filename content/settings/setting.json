@@ -106,5 +106,8 @@
   "mailchimp": {
     "url": "https://mailchimp.com/",
     "key": "12345678"
+  },
+  "googleanalytics": {
+    "measurementID": "G-L64EB55QEM"
   }
 }
