@@ -18,14 +18,14 @@ function MyApp({ Component, pageProps }) {
       dataLayer.push(arguments);
     }
     gtag('js', new Date());
-    gtag('config', process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID);
+    gtag('config', appData.googleanalytics.measurementID);
   }, []);
 
   return (
     <>
 
 <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${appData.googleanalytics.measurementID}`}
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
+          gtag('config', '${appData.googleanalytics.measurementID}');
         `}
       </Script>
 

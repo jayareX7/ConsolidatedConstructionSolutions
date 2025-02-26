@@ -192,6 +192,14 @@ export default defineConfig({
               { type: 'string', label: 'Key', name: 'key' },
             ],
           },
+          {
+            label: 'Google Analytics',
+            name: 'googleanalytics',
+            type: 'object',
+            fields: [
+              { type: 'string', label: 'Measurement-ID', name: 'measurementID' },
+            ],
+          },
         ],
         ui: {
           allowedActions: {
