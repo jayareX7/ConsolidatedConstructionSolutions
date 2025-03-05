@@ -22,7 +22,7 @@
     "remark-html": "^15.0.2",
     "sass": "^1.49.7",
     "swiper": "^9.0.0",
-    "tinacms": "^2.6.0"
+    "tinacms": "^2.7.2"
   },
   "devDependencies": {
     "@tinacms/cli": "^1.8.0",
