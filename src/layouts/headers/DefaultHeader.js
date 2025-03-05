@@ -132,7 +132,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                               <ul>
                                 <li className="d-flex align-items-center position-relative">
                                   <div className="p-img light-bg">
-                                    <img src="/img/product1.jpeg" alt="Product Image" />
+                                    <img src="/pages/product1.jpeg" alt="Product Image" />
                                   </div>
                                   <div className="p-data">
                                     <h3 className="font-semi-bold">Pastoral Principles Cards</h3>
@@ -142,7 +142,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                                 </li>
                                 <li className="d-flex align-items-center position-relative">
                                   <div className="p-img light-bg">
-                                    <img src="/img/product2.jpeg" alt="Product Image" />
+                                    <img src="/pages/product2.jpeg" alt="Product Image" />
                                   </div>
                                   <div className="p-data">
                                     <h3 className="font-semi-bold">Pastoral Principles Cards</h3>
