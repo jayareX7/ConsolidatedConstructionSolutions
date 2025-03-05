@@ -20,7 +20,7 @@
     },
     {
       "image": "/img/homepage/hero2.jpg",
-      "title": "Innovative Solutions",
+      "title": "Innovative Solutions Test",
       "text": "We are a construction and architecture environmentally friendly company",
       "button": {
         "label": "Start Consulting",
@@ -39,16 +39,16 @@
     "subtitle": "Welcome to Our Company",
     "text": "We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!",
     "signature": {
-      "light": "/images/signature.png",
-      "dark": "/images/signature-1.png"
+      "light": "/img/images/signature.png",
+      "dark": "/img/images/signature-1.png"
     }
   },
   "process": {
     "items": [
       {
         "icon": {
-          "light": "/images/icon-1.svg",
-          "dark": "/images/1-icon.png",
+          "light": "/img/images/icon-1.svg",
+          "dark": "/img/images/1-icon.png",
           "alt": "icon"
         },
         "title": "Core Planning",
@@ -57,8 +57,8 @@
       },
       {
         "icon": {
-          "light": "/images/icon-2.svg",
-          "dark": "/images/2-icon.png",
+          "light": "/img/images/icon-2.svg",
+          "dark": "/img/images/2-icon.png",
           "alt": "icon"
         },
         "title": "Traditional Designs",
@@ -67,8 +67,8 @@
       },
       {
         "icon": {
-          "light": "/images/icon-3.svg",
-          "dark": "/images/3-icon.png",
+          "light": "/img/images/icon-3.svg",
+          "dark": "/img/images/3-icon.png",
           "alt": "icon"
         },
         "title": "Quality Materials",
@@ -84,7 +84,7 @@
       "url": "/img/homepage/ourgoals2.jpg"
     },
     "image_text_rotate": {
-      "url": "/images/our-goal-mov-text.png"
+      "url": "/img/images/our-goal-mov-text.png"
     },
     "items": [
       {
@@ -191,7 +191,7 @@
     "link": "/contact",
     "bg_image": "/img/homepage/reno.jpg",
     "image_circle_text": {
-      "url": "/images/circle-text.png",
+      "url": "/img/images/circle-text.png",
       "alt": "Circle Text"
     }
   },
