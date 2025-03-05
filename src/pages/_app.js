@@ -5,15 +5,10 @@ import Script from "next/script";
 import { useEffect } from "react";
 import '../styles/scss/style.scss';
 import "../styles/globals.css";
-import { TinaCMS, TinaProvider } from 'tinacms';
 import { register } from "swiper/element/bundle";
 // register Swiper custom elements
 register();
 
-const cms = new TinaCMS({
-  enabled: true,
-  sidebar: true,
-});
 
 function MyApp({ Component, pageProps }) {
 
@@ -48,11 +43,12 @@ function MyApp({ Component, pageProps }) {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           {/* seo end */}        
       </Head>
-      <TinaProvider cms={cms}>
       <Component {...pageProps} />
-      </TinaProvider>
     </>
   );
 }
 
 export default MyApp;
+
+
+

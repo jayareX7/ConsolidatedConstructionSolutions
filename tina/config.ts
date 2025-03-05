@@ -1,5 +1,4 @@
 import { defineConfig } from "tinacms";
-import Icon from "../src/components/Icons";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -854,7 +853,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Projects",
-        path: "content/posts/projects",
+        path: "content/posts/Projects",
         format: "md",
         
         fields: [
@@ -1070,7 +1069,7 @@ export default defineConfig({
       {
         label: 'Service List',
         name: 'services',
-        path: 'content/posts/service',
+        path: 'content/posts/Service',
         format: 'md',
         fields: [
           { type: 'string', label: 'Title', name: 'title', isTitle: true, required: true,  },
@@ -1202,7 +1201,7 @@ export default defineConfig({
       {
         name: "terms",
         label: "Terms & Conditions",
-        path: "content/posts/terms",
+        path: "content/posts/conditions",
         format: "md",
         
         fields: [
@@ -1215,7 +1214,7 @@ export default defineConfig({
       {
         name: "privacy",
         label: "Privacy Policy",
-        path: "content/posts/privacy",
+        path: "content/posts/policy",
         format: "md",
         
         fields: [
