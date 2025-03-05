@@ -1,6 +1,6 @@
 ---
 title: Welding & Laser
-image: img/services/serv-i-4.svg
+image: pages/services/serv-i-4.svg
 short: Designing and Building The Most Beautiful Custom Homes.
 description0:
   enabled: true
@@ -19,15 +19,15 @@ description0:
 gallery:
   enabled: true
   items:
-    - image: /img/services/roofing.jpg
+    - image: /pages/services/roofing.jpg
       alt: image
-    - image: /img/services/houserenovation.jpg
+    - image: /pages/services/houserenovation.jpg
       alt: image
-    - image: /img/services/consulting.jpg
+    - image: /pages/services/consulting.jpg
       alt: image
-    - image: /img/services/greenhouse.jpg
+    - image: /pages/services/greenhouse.jpg
       alt: image
-    - image: /img/services/generalcontracting.jpg
+    - image: /pages/services/generalcontracting.jpg
       alt: image
 accordion:
   enabled: true

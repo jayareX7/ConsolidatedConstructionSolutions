@@ -1,6 +1,6 @@
 ---
 #preview details
-image: /img/team-3.jpg
+image: /pages/team-3.jpg
 name: Ethan Keith
 role: President, Company CEO
 tel: (+120) 50 318 47 07

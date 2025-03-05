@@ -5,7 +5,7 @@
       "serviceName": "General Contracting",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/services/generalcontracting.jpg",
+        "url": "/pages/services/generalcontracting.jpg",
         "alt": "Services Nav Image 1"
       }
     },
@@ -13,7 +13,7 @@
       "serviceName": "Construction Consultant",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/services/consulting.jpg",
+        "url": "/pages/services/consulting.jpg",
         "alt": "Services Nav Image 2"
       }
     },
@@ -21,7 +21,7 @@
       "serviceName": "Metal Roofing",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/services/roofing.jpg",
+        "url": "/pages/services/roofing.jpg",
         "alt": "Services Nav Image 3"
       }
     },
@@ -29,7 +29,7 @@
       "serviceName": "House Renovation",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/services/houserenovation.jpg",
+        "url": "/pages/services/houserenovation.jpg",
         "alt": "Services Nav Image 4"
       }
     },
@@ -37,13 +37,13 @@
       "serviceName": "Green Building",
       "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
       "img": {
-        "url": "/img/services/greenhouse.jpg",
+        "url": "/pages/services/greenhouse.jpg",
         "alt": "Services Nav Image 5"
       }
     }
   },
   "serviceVideo": {
-    "img": "/img/contact/contact.jpg",
+    "img": "/pages/contact/contact.jpg",
     "alt": "Video PopUp Image"
   },
   "additionalServices": {
@@ -51,7 +51,7 @@
     "subtitle": "What We Provide"
   },
   "contactSubject": {
-    "bg_image": "/img/projects/pexels-pixabay.jpg",
+    "bg_image": "/pages/projects/pexels-pixabay.jpg",
     "title": "Choose A Topic",
     "subject1": "Subject1",
     "subject2": "Subject2",

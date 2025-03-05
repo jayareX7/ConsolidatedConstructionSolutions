@@ -5,7 +5,7 @@
     "text": "We are resolute in our mission to not only make a difference to the lives of people today but to also leave a legacy for future generations and the planet we live in. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!",
     "listTitle": "What's in it for me?",
     "aboutImage1": {
-      "image": "/img/about/fam3.jpg",
+      "image": "/pages/about/fam3.jpg",
       "alt": "About Us Image One"
     },
     "items": {
@@ -16,7 +16,7 @@
       "listText5": "High performing, low carbon concrete solution"
     },
     "aboutImage2": {
-      "image": "/img/about/joy.jpg",
+      "image": "/pages/about/joy.jpg",
       "alt": "About Us Image Two"
     }
   },
@@ -24,37 +24,37 @@
     "title": "Company History",
     "subtitle": "A strong foundation",
     "slide1": {
-      "image": "/img/about/history0.jpg",
+      "image": "/pages/about/history0.jpg",
       "alt": "History Image One",
       "year": "1982",
       "text": "<span>Thomas Willimes starts the company,</span> managing construction of our first office building in Chelsea, Mass."
     },
     "slide2": {
-      "image": "/img/about/history5.jpg",
+      "image": "/pages/about/history5.jpg",
       "alt": "History Image Two",
       "year": "1994",
       "text": "Our company embraces snowbird status and expands to West Palm Beach—our first office outside New England."
     },
     "slide3": {
-      "image": "/img/about/history1.jpg",
+      "image": "/pages/about/history1.jpg",
       "alt": "History Image Six",
       "year": "2004",
       "text": "The Career Start program officially launches, recruiting college graduates into robust construction training rotations."
     },
     "slide4": {
-      "image": "/img/about/history6.jpg",
+      "image": "/pages/about/history6.jpg",
       "alt": "History Image Three",
       "year": "2010",
       "text": "Certified firms to learn our approach, make connections, and grow their businesses."
     },
     "slide5": {
-      "image": "/img/about/history3.jpg",
+      "image": "/pages/about/history3.jpg",
       "alt": "History Image Four",
       "year": "2017",
       "text": "starts Safer Together, our safety program that emphasizes people and teamwork."
     },
     "slide6": {
-      "image": "/img/about/history4.jpg",
+      "image": "/pages/about/history4.jpg",
       "alt": "History Image Five",
       "year": "2021",
       "text": "highly collaborative design-build process that is revolutionizing the real estate development lifecycle"
@@ -65,7 +65,7 @@
     "title": "Meet The Expert Team",
     "items": [
       {
-        "image": "/img/team/fam.jpg",
+        "image": "/pages/team/fam.jpg",
         "name": "Isiah Payton",
         "role": "Painter",
         "social": [
@@ -82,7 +82,7 @@
         ]
       },
       {
-        "image": "/img/team/member2.jpg",
+        "image": "/pages/team/member2.jpg",
         "name": "Jared Cruz",
         "role": "Architect",
         "social": [
@@ -99,7 +99,7 @@
         ]
       },
       {
-        "image": "/img/team/owner.jpg",
+        "image": "/pages/team/owner.jpg",
         "name": "Edward Jeffrey",
         "role": "Finance Department",
         "social": [
@@ -116,7 +116,7 @@
         ]
       },
       {
-        "image": "/img/team/member5.jpg",
+        "image": "/pages/team/member5.jpg",
         "name": "Henry Taylor",
         "role": "Head Railway Construction",
         "social": [
@@ -133,7 +133,7 @@
         ]
       },
       {
-        "image": "/img/team/member3.jpg",
+        "image": "/pages/team/member3.jpg",
         "name": "Nicholas Larry",
         "role": "Railway Manager",
         "social": [
@@ -150,7 +150,7 @@
         ]
       },
       {
-        "image": "/img/team/member6.jpg",
+        "image": "/pages/team/member6.jpg",
         "name": "Stephanie Jones",
         "role": "Creative Worker",
         "social": [
@@ -167,7 +167,7 @@
         ]
       },
       {
-        "image": "/img/team/member4.jpg",
+        "image": "/pages/team/member4.jpg",
         "name": "Erica Scott",
         "role": "Cheif Railway Construction",
         "social": [
@@ -218,23 +218,23 @@
   "partners": {
     "items": [
       {
-        "image": "/img/partners/client-1.png",
+        "image": "/pages/partners/client-1.png",
         "alt": "img"
       },
       {
-        "image": "/img/partners/client-2.png",
+        "image": "/pages/partners/client-2.png",
         "alt": "img"
       },
       {
-        "image": "/img/partners/client-3.png",
+        "image": "/pages/partners/client-3.png",
         "alt": "img"
       },
       {
-        "image": "/img/partners/client-4.png",
+        "image": "/pages/partners/client-4.png",
         "alt": "img"
       },
       {
-        "image": "/img/partners/client-5.png",
+        "image": "/pages/partners/client-5.png",
         "alt": "img"
       }
     ]
@@ -243,7 +243,7 @@
     "title": "Ready to work together?",
     "description": "You’re looking for a reliable construction partner or you’re looking to take the next step in your career, we want to hear from you!",
     "image": {
-      "url": "/img/contact/building-2.png",
+      "url": "/pages/contact/building-2.png",
       "alt": "image"
     },
     "button": {

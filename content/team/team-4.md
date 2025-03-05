@@ -1,6 +1,6 @@
 ---
 #preview details
-image: /img/team-4.jpg
+image: /pages/team-4.jpg
 name: Henry Nathan
 role: President, Company CEO
 tel: (+120) 50 318 47 07

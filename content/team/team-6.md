@@ -1,6 +1,6 @@
 ---
 #preview details
-image: /img/team-6.jpg
+image: /pages/team-6.jpg
 name: Henry Vincent
 role: President, Company CEO
 tel: (+120) 50 318 47 07

@@ -1,7 +1,7 @@
 {
   "heroImages": [
     {
-      "image": "/img/homepage/hero3.jpg",
+      "image": "/pages/homepage/hero3.jpg",
       "title": "Create Your Dream Home",
       "text": "We are a construction and architecture environmentally friendly company",
       "button": {
@@ -10,7 +10,7 @@
       }
     },
     {
-      "image": "/img/homepage/hero4.jpg",
+      "image": "/pages/homepage/hero4.jpg",
       "title": "Build Your Dreams",
       "text": "We are a construction and architecture environmentally friendly company",
       "button": {
@@ -19,7 +19,7 @@
       }
     },
     {
-      "image": "/img/homepage/hero2.jpg",
+      "image": "/pages/homepage/hero2.jpg",
       "title": "Innovative Solutions Test",
       "text": "We are a construction and architecture environmentally friendly company",
       "button": {
@@ -30,10 +30,10 @@
   ],
   "aboutSection1": {
     "image1": {
-      "url": "/img/homepage/ourgoals.jpg"
+      "url": "/pages/homepage/ourgoals.jpg"
     },
     "image2": {
-      "url": "/img/homepage/winning.jpg"
+      "url": "/pages/homepage/winning.jpg"
     },
     "title": "Consolidated Construction Solutions provides a full range of services",
     "subtitle": "Welcome to Our Company",
@@ -81,7 +81,7 @@
     "title": "Right People to Deliver Unique Construction Solutions",
     "subtitle": "Focused and Future Ready",
     "image": {
-      "url": "/img/homepage/ourgoals2.jpg"
+      "url": "/pages/homepage/ourgoals2.jpg"
     },
     "image_text_rotate": {
       "url": "images/our-goal-mov-text.png"
@@ -129,7 +129,7 @@
     "title": "What Makes Us Different",
     "yt_video_id": "uemObN8_dcw",
     "image": {
-      "url": "/img/homepage/represent2.jpg",
+      "url": "/pages/homepage/represent2.jpg",
       "alt": "image"
     },
     "items": [
@@ -159,27 +159,27 @@
     "items": [
       {
         "title": "Partner 1",
-        "image": "/img/partners/client-1.png",
+        "image": "/pages/partners/client-1.png",
         "alt": "img"
       },
       {
         "title": "Partner 2",
-        "image": "/img/partners/client-2.png",
+        "image": "/pages/partners/client-2.png",
         "alt": "img"
       },
       {
         "title": "Partner 3",
-        "image": "/img/partners/client-3.png",
+        "image": "/pages/partners/client-3.png",
         "alt": "img"
       },
       {
         "title": "Partner 4",
-        "image": "/img/partners/client-4.png",
+        "image": "/pages/partners/client-4.png",
         "alt": "img"
       },
       {
         "title": "Partner 5",
-        "image": "/img/partners/client-5.png",
+        "image": "/pages/partners/client-5.png",
         "alt": "img"
       }
     ]
@@ -189,7 +189,7 @@
     "subtitle": "Your Renovation",
     "description": "Each of our completed projects comes with a 2-5 year warranty, giving you peace of mind knowing that your home’s renovations are in good hands.",
     "link": "/contact",
-    "bg_image": "/img/homepage/reno.jpg",
+    "bg_image": "/pages/homepage/reno.jpg",
     "image_circle_text": {
       "url": "images/circle-text.png",
       "alt": "Circle Text"
@@ -200,7 +200,7 @@
     "title": "Estimatied Price",
     "description": "To get the cost estimation of your house please select from the following:",
     "image": {
-      "url": "/img/homepage/est-img.png",
+      "url": "/pages/homepage/est-img.png",
       "alt": "image"
     },
     "estimatedPriceForm": {

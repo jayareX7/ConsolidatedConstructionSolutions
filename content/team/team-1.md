@@ -1,6 +1,6 @@
 ---
 #preview details
-image: /img/team-1.jpg
+image: /pages/team-1.jpg
 name: Marc Chiasson
 role: President, Company CEO
 tel: (+120) 50 318 47 07

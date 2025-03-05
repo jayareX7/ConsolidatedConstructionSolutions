@@ -1,6 +1,6 @@
 ---
 title: IT Business Center
-image: /img/projects/pexels-pix.jpg
+image: /pages/projects/pexels-pix.jpg
 short: >-
   A modern, technology-enabled, wellness-focused workspace and sustainable
   office…
@@ -10,25 +10,25 @@ details:
   items:
     - label: Sectors
       value: Affordable Housing
-      icon: /img/services/icon-pd-1.svg
+      icon: /pages/services/icon-pd-1.svg
     - label: Owner
       value: Communities Development
-      icon: /img/services/icon-pd-2.svg
+      icon: /pages/services/icon-pd-2.svg
     - label: Square Feet
       value: 'Phase 1: 147,000 - Phase 2: 147,000'
-      icon: /img/services/icon-pd-3.svg
+      icon: /pages/services/icon-pd-3.svg
     - label: Project Date
       value: 'Started: 1990 - Ending: 2000'
-      icon: /img/services/icon-pd-4.svg
+      icon: /pages/services/icon-pd-4.svg
 slider:
   items:
-    - image: /img/projects/douglas-sheppard-unsplash.jpg
+    - image: /pages/projects/douglas-sheppard-unsplash.jpg
       alt: image
-    - image: /img/projects/kara-eads-unsplash.jpg
+    - image: /pages/projects/kara-eads-unsplash.jpg
       alt: image
-    - image: /img/projects/kenny-eliason-unsplash.jpg
+    - image: /pages/projects/kenny-eliason-unsplash.jpg
       alt: image
-    - image: /img/projects/jolene-hardy-unsplash.jpg
+    - image: /pages/projects/jolene-hardy-unsplash.jpg
       alt: image
 ---
 

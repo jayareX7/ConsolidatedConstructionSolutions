@@ -1,6 +1,6 @@
 ---
 #preview details
-image: /img/team-5.jpg
+image: /pages/team-5.jpg
 name: Edward Jeffrey
 role: President, Company CEO
 tel: (+120) 50 318 47 07

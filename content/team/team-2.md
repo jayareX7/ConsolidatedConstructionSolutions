@@ -1,6 +1,6 @@
 ---
 #preview details
-image: /img/team-2.jpg
+image: /pages/team-2.jpg
 name: Henry Taylor
 role: President, Company CEO
 tel: (+120) 50 318 47 07
