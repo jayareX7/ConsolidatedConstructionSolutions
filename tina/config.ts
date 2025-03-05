@@ -1201,7 +1201,7 @@ export default defineConfig({
       {
         name: "terms",
         label: "Terms & Conditions",
-        path: "content/posts/conditions",
+        path: "content/posts/Conditions",
         format: "md",
         
         fields: [
@@ -1214,7 +1214,7 @@ export default defineConfig({
       {
         name: "privacy",
         label: "Privacy Policy",
-        path: "content/posts/policy",
+        path: "content/posts/Policy",
         format: "md",
         
         fields: [
