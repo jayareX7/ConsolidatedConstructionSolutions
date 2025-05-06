@@ -1,7 +1,7 @@
 import { sliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Data from '@data/sliders/hero';
+import Data from '@content/homepage/homepage.json';
 import Link from "next/link";
 
 const HeroSlider = () => {
@@ -12,7 +12,7 @@ const HeroSlider = () => {
               {...sliderProps.heroSlider}
               className="swiper-container ro f-slider-one"
             >
-                {Data.items.map((item, key) => (
+                {Data.heroImages.map((item, key) => (
                 <SwiperSlide key={`hs-slide-${key}`} className="swiper-slide">
                     <div className="f-slider-layer">
                         <img src={item.image} alt={item.title} />

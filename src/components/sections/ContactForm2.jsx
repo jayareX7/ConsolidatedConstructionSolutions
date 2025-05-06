@@ -1,11 +1,11 @@
-import Data from "@data/sections/contact-form-2.json";
-import appData from "@data/app.json";
+import Data from "@content/services/services.json";
+import appData from "@content/settings/setting.json";
 import { Formik } from 'formik';
 
 const ContactForm2Section = () => {
   return (
     <div className="contact-form-one contact-form-two">
-        <div className="parallax" style={{backgroundImage: 'url('+Data.bg_image+')'}} />
+        <div className="parallax" style={{backgroundImage: 'url('+Data.contactSubject.bg_image+')'}} />
 
         <div className="container">
           <div className="row align-items-center">
@@ -75,7 +75,7 @@ const ContactForm2Section = () => {
                         isSubmitting,
                         /* and other goodies */
                     }) => (
-                    <form onSubmit={handleSubmit} id="contactForm" action={appData.settings.formspreeURL}>
+                    <form onSubmit={handleSubmit} id="contactForm" action={appData.formspreeURL}>
                         <div className="row g-0">
                             <input 
                               type="text" 
@@ -124,10 +124,11 @@ const ContactForm2Section = () => {
                               onBlur={handleBlur}
                               value={values.subject}
                             >
-                                <option>Subject</option>
-                                <option value="1">Subject 1</option>
-                                <option value="2">Subject 2</option>
-                                <option value="3">Subject 3</option>
+                                <option>{Data.contactSubject.title}</option>
+                                <option value="1">{Data.contactSubject.subject1}</option>
+                                <option value="2">{Data.contactSubject.subject2}</option>
+                                <option value="3">{Data.contactSubject.subject3}</option>
+                                <option value="4">{Data.contactSubject.subject4}</option>
                             </select>
                             </div>
                         </div>

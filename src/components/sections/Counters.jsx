@@ -1,4 +1,4 @@
-import Data from "@data/sections/counters.json";
+import Data from "@content/homepage/homepage.json";
 import CountUp from 'react-countup';
 
 const CountersSection = () => {
@@ -6,7 +6,7 @@ const CountersSection = () => {
     <section className="gap no-top counter-style-one">
         <div className="container">
           <div className="row">
-            {Data.items.map((item, key) => (
+            {Data.counters.items.map((item, key) => (
             <div key={`counters-item-${key}`} className="col-lg-4 col-md-6 col-sm-12" >
               <div className={ key % 2 != 0 ? "counter-data upper-space" : "counter-data" }>
                 <div className="count">

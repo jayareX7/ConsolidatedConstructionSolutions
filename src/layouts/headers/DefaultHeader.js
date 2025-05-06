@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import appData from "@data/app.json";
+import appData from "@content/settings/setting.json";
 import { useLocalStorage } from "@common/useLocalStorage";
 
 const DefaultHeader = ({ contactButton, cartButton }) => {
@@ -79,7 +79,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                     <div className="header-logo">
                       <Link href="/">
                         <figure>
-                          <img src={appData.header.logo.image} alt={appData.header.logo.alt} />
+                          <img src={appData.companyLogo.logo.image} alt={appData.companyLogo.logo.alt} />
                         </figure>
                       </Link>
                     </div>
@@ -132,7 +132,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                               <ul>
                                 <li className="d-flex align-items-center position-relative">
                                   <div className="p-img light-bg">
-                                    <img src="/img/product1.jpeg" alt="Product Image" />
+                                    <img src="/pages/product1.jpeg" alt="Product Image" />
                                   </div>
                                   <div className="p-data">
                                     <h3 className="font-semi-bold">Pastoral Principles Cards</h3>
@@ -142,7 +142,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                                 </li>
                                 <li className="d-flex align-items-center position-relative">
                                   <div className="p-img light-bg">
-                                    <img src="/img/product2.jpeg" alt="Product Image" />
+                                    <img src="/pages/product2.jpeg" alt="Product Image" />
                                   </div>
                                   <div className="p-data">
                                     <h3 className="font-semi-bold">Pastoral Principles Cards</h3>
@@ -165,8 +165,8 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                           </>
                         }
                         {contactButton != 1 &&
-                        <a href="tel:+02101283492" className="theme-btn">
-                          +021 01283492 
+                        <a href="tel:{appData.footerInfo.info.tel}" className="theme-btn">
+                          {appData.footerInfo.info.tel}
                           <i>
                             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="40" height="62" viewBox="0 0 40 62">
                               <defs>
@@ -201,7 +201,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
           <div className="mobile-nav mobile-menu" id="mobile-nav">
             <div className="res-log">
               <Link href="/">
-                <img src={appData.header.logo.image} alt={appData.header.logo.alt} />
+                <img src={appData.companyLogo.logo.image} alt={appData.companyLogo.logo.alt} />
               </Link>
             </div>
 
@@ -233,16 +233,16 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
           </div>
 
           <div className="mobile-nav desktop-menu">
-            <h2>We Build Building and Great Homes.</h2>
-            <p className="des">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.</p>
+            <h2>{appData.header.sidebarMenu.title}</h2>
+            <p className="des">{appData.header.sidebarMenu.text}</p>
             
             <figure>
-              <img src="/img/project1.jpeg" alt="image" />
+              <img src={appData.header.sidebarMenu.image} alt="image" />
             </figure>
 
-            <h3>Get in touch</h3>
-            <p className="num">(+380) 50 318 47 07</p>
-            <p className="adrs">65 Allerton Street 901 N Pitt Str, Suite 170, VA 22314, USA</p>
+            <h3>{appData.header.sidebarMenu.cta}</h3>
+            <p className="num">{appData.footerInfo.info.tel}</p>
+            <p className="adrs">{appData.footerInfo.info.address}</p>
 
             <div className="social-medias">
               {appData.social.map((item, key) => (

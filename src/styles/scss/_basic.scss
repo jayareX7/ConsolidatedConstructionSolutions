@@ -115,11 +115,23 @@ p {
 span{
     font-family: $font-1;
 }
+
+.checklist   ul li:before{
+    list-style: none;
+    padding: 0;
+    margin-right: 10px;
+    color: $accent-1;
+    font-family: $font-7;
+    content: "\f058";
+}
+
 ul,
 li{
     list-style: none;
     padding: 0;
     margin: 0;
+    color: $grey;
+
 }
 a,
 a:hover{
@@ -233,6 +245,9 @@ a:hover{
 .footer-style-one .footer-p-3 .footer-col p a,
 .footer-style-one .footer-p-3 .footer-col a:after,
 .footer-style-one .footer-p-3 .footer-col a:before,
+.footer-style-one .footer-p-3 .footer-terms p a,
+.footer-style-one .footer-p-3 .footer-terms a:after,
+.footer-style-one .footer-p-3 .footer-terms a:before,
 .mobile-nav.desktop-menu .social-medias a:before,
 .mobile-nav.desktop-menu .social-medias a:after,
 button.scrollTopStick i,
@@ -1065,19 +1080,33 @@ button.scrollTopStick:hover i {
 /* 3. About Style One Start */
 .about-style-one .about-data-left {
     padding-top: 60px;
-    display: flex;
+    display: grid;
     align-items: flex-end;
     position: relative;
+    z-index: 1;
+}
+
+.about-data-left .about-style-two {
+grid-column: -6 / span 8;
+grid-row: 1;
+z-index: 1;
+display: grid;
+position: relative;
+
 }
 .about-style-one .about-data-left img {
     width: 100%;
 }
 .about-style-one .about-data-left .about-image {
-    margin-left: 15px;
+    margin-left: 50%;
     margin-bottom: -60px;
+    grid-column: -2 / 5;
+    grid-row: 1;
+    z-index: 3;
 }
 .about-style-one .about-data-left figure:nth-child(2) {
-    width: 55%;
+    width: 50%;
+    margin-bottom: -10%;
 }
 .about-style-one .about-data-left:before {
     content: "";
@@ -1107,7 +1136,7 @@ button.scrollTopStick:hover i {
     padding-top: 130px;
 }
 .about-style-one .about-data-right .about-info {
-    padding-left: 110px;
+    padding-left: 0px;
 }
 .about-style-one .about-data-right .about-info p {
     margin-bottom: 30px;
@@ -2029,10 +2058,7 @@ span.counter {
 /* 12. Blog Style One End*/
 
 /* 13. Footer Style One Start */
-.footer-style-one .footer-p-1 {
-    background-color: $grey;
-    padding: 30px 0;
-}
+
 .contact-info .images img {
     width: 60px;
     height: 60px;
@@ -2181,13 +2207,73 @@ span.counter {
 }
 .footer-style-one .footer-p-3.rights .footer-col {
     border-top: 1px solid;
-    padding: 40px 0;
+    padding: 40px 0 20px 0;
     display: flex;
     justify-content: space-between;
 }
+
 .footer-style-one .footer-p-3.rights .footer-col .social-medias a:not(:last-child) {
     margin-right: 25px;
 }
+
+.rights {
+    padding: 0 12px;
+}
+
+
+
+
+
+
+
+
+
+.footer-style-one .footer-p-3 .footer-terms p i {
+    font-size: $text-xs;
+    margin: 0 5px;
+}
+.footer-style-one .footer-p-3 .footer-terms a {
+    font-family: $font-1;
+    font-size: $text-sm;
+    line-height: 30px;
+    color: $accent-1;
+    position: relative;
+}
+.footer-style-one .footer-p-3 .footer-terms a:before,
+.footer-style-one .footer-p-3 .footer-terms a:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer-style-one .footer-p-3 .footer-terms a:before {
+    border-bottom: 1px solid #6a6a6a;
+    width: 100%;
+}
+.footer-style-one .footer-p-3 .footer-terms a:after {
+    width: 0;
+    border-bottom: 1px solid;
+}
+.footer-style-one .footer-p-3 .footer-terms a:hover:after {
+    width: 100%;
+}
+
+.footer-style-one .footer-p-3 .footer-terms {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-style-one .footer-p-3 .footer-terms .social-medias a:not(:last-child) {
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
 /* 13. Footer Style One End */
 
 /* 14. Header Style One Start */
@@ -4611,7 +4697,7 @@ span.counter {
     margin-bottom: 5px;
 }
 .contact-form-2 .info ul.contact li p {
-    color: #b7b7b7;
+    color: $accent-1;
 }
 .contact-form-2 .info ul.contact li {
     display: flex;
@@ -4705,7 +4791,7 @@ ul.social-medias {
     font-family: $font-1;
 }
 .construction-services .tab-content>.tab-pane figure figcaption p {
-    color: #c2c1c1;
+    color: $accent-1;
 }
 .construction-services .tab-content>.tab-pane figure {
     position: relative;

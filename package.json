@@ -1,11 +1,11 @@
 {
-  "name": "CSS-nextjs",
+  "name": "CSS",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build ",
+    "start": "tinacms build && next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -22,5 +22,9 @@
     "remark-html": "^15.0.2",
     "sass": "^1.49.7",
     "swiper": "^9.0.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.9.2",
+    "@types/node": "^22.10.5"
   }
 }

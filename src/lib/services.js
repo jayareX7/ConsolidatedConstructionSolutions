@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
 
-const servicesDirectory = path.join(process.cwd(), 'src/data/services')
+const servicesDirectory = path.join(process.cwd(), 'content/posts/Service')
 
 export function getSortedServicesData() {
   // Get file names under /posts

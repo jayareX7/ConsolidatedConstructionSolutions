@@ -1,7 +1,7 @@
 import { sliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Data from '@data/sliders/testimonial';
+import Data from '@content/about/about.json';
 
 const TestimonialSlider = () => {
   return (
@@ -10,14 +10,14 @@ const TestimonialSlider = () => {
         <div className="row align-items-center">
             <div className="col-lg-6" >
                 <div className="head-review">
-                    <span>{Data.subtitle}</span>
-                    <h3>{Data.title}</h3>
+                    <span>{Data.testimonial.subtitle}</span>
+                    <h3>{Data.testimonial.title}</h3>
                 </div>
                 <Swiper
                     {...sliderProps.testimonialSlider}
                     className="swiper-container client-review-slider"
                 >
-                {Data.items.map((item, key) => (
+                {Data.testimonial.items.map((item, key) => (
                 <SwiperSlide key={`tts-slide-${key}`} className="swiper-slide">
                     <div className="slider-data">
                         <p>{item.text}</p>
@@ -38,7 +38,7 @@ const TestimonialSlider = () => {
             </div>
             <div className="col-lg-6" >
                 <figure>
-                    <img src={Data.image.url} alt={Data.image.alt} />
+                    <img src={Data.testimonial.image.url} alt={Data.testimonial.image.alt} />
                 </figure>
             </div>
         </div>

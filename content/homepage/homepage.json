@@ -1,0 +1,236 @@
+{
+  "heroImages": [
+    {
+      "image": "/pages/homepage/hero3.jpg",
+      "title": "Create Your Dream Home",
+      "text": "We are a construction and architecture environmentally friendly company",
+      "button": {
+        "label": "Start Consulting",
+        "link": "/contact"
+      }
+    },
+    {
+      "image": "/pages/homepage/hero4.jpg",
+      "title": "Build Your Dreams",
+      "text": "We are a construction and architecture environmentally friendly company",
+      "button": {
+        "label": "Estimate Price",
+        "link": "/services"
+      }
+    },
+    {
+      "image": "/pages/homepage/hero2.jpg",
+      "title": "Innovative Solutions Test",
+      "text": "We are a construction and architecture environmentally friendly company",
+      "button": {
+        "label": "Start Consulting",
+        "link": "/contact"
+      }
+    }
+  ],
+  "aboutSection1": {
+    "image1": {
+      "url": "/pages/homepage/ourgoals.jpg"
+    },
+    "image2": {
+      "url": "/pages/homepage/winning.jpg"
+    },
+    "title": "Consolidated Construction Solutions provides a full range of services",
+    "subtitle": "Welcome to Our Company",
+    "text": "We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!",
+    "signature": {
+      "light": "images/signature.png",
+      "dark": "images/signature-1.png"
+    }
+  },
+  "process": {
+    "items": [
+      {
+        "icon": {
+          "light": "images/icon-1.svg",
+          "dark": "images/1-icon.png",
+          "alt": "icon"
+        },
+        "title": "Core Planning",
+        "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
+        "link": "/services/#"
+      },
+      {
+        "icon": {
+          "light": "images/icon-2.svg",
+          "dark": "images/2-icon.png",
+          "alt": "icon"
+        },
+        "title": "Traditional Designs",
+        "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
+        "link": "/services/#"
+      },
+      {
+        "icon": {
+          "light": "images/icon-3.svg",
+          "dark": "images/3-icon.png",
+          "alt": "icon"
+        },
+        "title": "Quality Materials",
+        "text": "Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.",
+        "link": "/services/#"
+      }
+    ]
+  },
+  "aboutSection2": {
+    "title": "Right People to Deliver Unique Construction Solutions",
+    "subtitle": "Focused and Future Ready",
+    "image": {
+      "url": "/pages/homepage/ourgoals2.jpg"
+    },
+    "image_text_rotate": {
+      "url": "images/our-goal-mov-text.png"
+    },
+    "items": [
+      {
+        "title": "Our Goal is to Be Better",
+        "text": "<p>We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>"
+      },
+      {
+        "title": "Business Bottom Line",
+        "text": "<ul><li>Geographical diversity, project complexity</li><li>Whether building on land or over water</li><li>Construction companies respond to the unique needs</li></ul>"
+      }
+    ]
+  },
+  "counters": {
+    "items": [
+      {
+        "value": "10",
+        "label": "Years",
+        "plus": true,
+        "title": "Professional Experience"
+      },
+      {
+        "value": "300",
+        "label": "People",
+        "plus": false,
+        "title": "Employees in team"
+      },
+      {
+        "value": "21",
+        "label": "Locations",
+        "plus": false,
+        "title": "Sites in development"
+      }
+    ]
+  },
+  "projectList": {
+    "subtitle": "Company Projects",
+    "title": "What We Build",
+    "numOfItems": 5
+  },
+  "features": {
+    "subtitle": "Core Features",
+    "title": "What Makes Us Different",
+    "yt_video_id": "uemObN8_dcw",
+    "image": {
+      "url": "/pages/homepage/represent2.jpg",
+      "alt": "image"
+    },
+    "items": [
+      {
+        "num": "01.",
+        "title": "Early Engagement",
+        "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+      },
+      {
+        "num": "02.",
+        "title": "Integrity",
+        "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+      },
+      {
+        "num": "03.",
+        "title": "Solutions",
+        "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+      },
+      {
+        "num": "04.",
+        "title": "Innovation",
+        "text": "Early engagement reduces project uncertainties through comprehensi scope definition and systems optimisation. The earlier you bring DES on board for your project."
+      }
+    ]
+  },
+  "partners": {
+    "items": [
+      {
+        "title": "Partner 1",
+        "image": "/pages/partners/client-1.png",
+        "alt": "img"
+      },
+      {
+        "title": "Partner 2",
+        "image": "/pages/partners/client-2.png",
+        "alt": "img"
+      },
+      {
+        "title": "Partner 3",
+        "image": "/pages/partners/client-3.png",
+        "alt": "img"
+      },
+      {
+        "title": "Partner 4",
+        "image": "/pages/partners/client-4.png",
+        "alt": "img"
+      },
+      {
+        "title": "Partner 5",
+        "image": "/pages/partners/client-5.png",
+        "alt": "img"
+      }
+    ]
+  },
+  "renovation": {
+    "title": "Starts Here",
+    "subtitle": "Your Renovation",
+    "description": "Each of our completed projects comes with a 2-5 year warranty, giving you peace of mind knowing that your home’s renovations are in good hands.",
+    "link": "/contact",
+    "bg_image": "/pages/homepage/reno.jpg",
+    "image_circle_text": {
+      "url": "images/circle-text.png",
+      "alt": "Circle Text"
+    }
+  },
+  "estimatedPrice": {
+    "subtitle": "House Construction Cost Calculator",
+    "title": "Estimatied Price",
+    "description": "To get the cost estimation of your house please select from the following:",
+    "image": {
+      "url": "/pages/homepage/est-img.png",
+      "alt": "image"
+    },
+    "estimatedPriceForm": {
+      "area": {
+        "label": "Choose Area",
+        "option1": "to 50 sq.m",
+        "option2": "from 100 - 150 sq.m",
+        "option3": "from 150 - 250 sq.m",
+        "option4": "250 sq.m and more"
+      },
+      "rooms": {
+        "label": "Rooms",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3",
+        "option4": "4",
+        "option5": "5",
+        "option6": "6 and more"
+      },
+      "bathroom": {
+        "label": "Bathrooms",
+        "option1": "1",
+        "option2": "2",
+        "option3": "3 or more"
+      },
+      "materials": {
+        "label": "Materials",
+        "option1": "A+ Grey Structure",
+        "option2": "Premium Finishing"
+      }
+    }
+  }
+}

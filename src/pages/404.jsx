@@ -1,6 +1,7 @@
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
 
+
 const E404 = () => {
   return (
     <Layouts noFooter>
@@ -29,7 +30,7 @@ const E404 = () => {
             <div className="col-lg-6">
               <div className="sb-404__img">
                 <figure>
-                  <img src="/img/building-2.png" alt="404" className="sb-man" />
+                  <img src="/pages/building-2.png" alt="404" className="sb-man" />
                 </figure>
               </div>
             </div>

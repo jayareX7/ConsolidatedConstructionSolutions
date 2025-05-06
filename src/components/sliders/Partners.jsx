@@ -1,7 +1,7 @@
 import { sliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import Data from '@data/sliders/partners';
+import Data from '@content/about/about.json';
 
 const PartnersSlider = ({ noTop }) => {
   return (
@@ -13,7 +13,7 @@ const PartnersSlider = ({ noTop }) => {
                 {...sliderProps.partnersSlider}
                 className="swiper-container client-slider"
             >
-                {Data.items.map((item, key) => (
+                {Data.partners.items.map((item, key) => (
                 <SwiperSlide key={`ps-slide-${key}`} className="swiper-slide">
                 <img className="w-auto m-auto" src={item.image} alt={item.alt} />
                 </SwiperSlide>

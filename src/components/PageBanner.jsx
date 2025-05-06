@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from "next/link";
-import appData from "@data/app.json";
+import appData from "@content/settings/setting.json";
 
 const PageBanner = ({ pageTitle, pageDesc }) => {
   const styles = {
@@ -8,7 +8,7 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
       "backgroundImage": "url(/images/pattren-3.png)"
     }
   }
-  const headTitle = `${appData.settings.siteName} - ${pageTitle}`;
+  const headTitle = `${appData.siteSettings.siteName} - ${pageTitle}`;
 
   return (
     <>

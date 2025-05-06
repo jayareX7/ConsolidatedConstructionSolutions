@@ -32,7 +32,7 @@ const ProjectDetail = ( props ) => {
 
   return (
     <Layouts>
-      <PageBanner pageTitle={"Project Detail"} pageDesc={"our values and vaulted us to the top of our industry."} />
+      <PageBanner pageTitle={"Project Detail"} pageDesc={"our values has vaulted us to the top of our industry."} />
 
       <section className="gap detail-page">
 
@@ -70,7 +70,7 @@ const ProjectDetail = ( props ) => {
                 </div>
 
                 {postData.contentHtml != "" &&
-                <div dangerouslySetInnerHTML={{__html : postData.contentHtml}} />
+                <div dangerouslySetInnerHTML={{__html : postData.contentHtml}} className="checklist"  />
                 }
                 
                 {typeof postData.checklist != "undefined" &&
