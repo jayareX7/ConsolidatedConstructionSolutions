@@ -1,6 +1,6 @@
 ---
 title: Terms & Conditions
-subtitle: A Subtitle Goes Here!
+subtitle: A Subtitle Goes Here
 ---
 
 These terms and conditions outline the rules and regulations for the use of Company Name's Website, located at Website.com.
