@@ -1,0 +1,61 @@
+{
+  "ourServices": {
+    "title": "Construction Services",
+    "item1": {
+      "serviceName": "General Contracting",
+      "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
+      "img": {
+        "url": "/pages/services/generalcontracting.jpg",
+        "alt": "Services Nav Image 1"
+      }
+    },
+    "item2": {
+      "serviceName": "Construction Consultant",
+      "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
+      "img": {
+        "url": "/pages/services/consulting.jpg",
+        "alt": "Services Nav Image 2"
+      }
+    },
+    "item3": {
+      "serviceName": "Metal Roofing",
+      "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
+      "img": {
+        "url": "/pages/services/roofing.jpg",
+        "alt": "Services Nav Image 3"
+      }
+    },
+    "item4": {
+      "serviceName": "House Renovation",
+      "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
+      "img": {
+        "url": "/pages/services/houserenovation.jpg",
+        "alt": "Services Nav Image 4"
+      }
+    },
+    "item5": {
+      "serviceName": "Green Building",
+      "description": "One of the most critical stages of  the construction process is the commissioning and closeout.",
+      "img": {
+        "url": "/pages/services/greenhouse.jpg",
+        "alt": "Services Nav Image 5"
+      }
+    }
+  },
+  "serviceVideo": {
+    "img": "/pages/contact/contact.jpg",
+    "alt": "Video PopUp Image"
+  },
+  "additionalServices": {
+    "title": "Additional Services",
+    "subtitle": "What We Provide"
+  },
+  "contactSubject": {
+    "bg_image": "/pages/projects/pexels-pixabay.jpg",
+    "title": "Choose A Topic",
+    "subject1": "Subject1",
+    "subject2": "Subject2",
+    "subject3": "Subject3",
+    "subject4": "Subject4"
+  }
+}

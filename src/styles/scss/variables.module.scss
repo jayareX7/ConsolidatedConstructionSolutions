@@ -1,0 +1,51 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+/* STYLE VARIABLES */
+$font-1: 'Construktor';
+$font-2: 'Rockwell-Regular';
+$font-3: 'Rockwell-Italic';
+$font-4: 'Rockwell-Bold';
+$font-5: 'Rockwell-Bold-Italic';
+$font-6: 'Rockwell-Extra-Bold';
+$font-7: 'FontAwesome';
+
+
+
+$accent-1: #e6c71f;
+$accent-2: #fae93b;
+$accent-3: #d6d6d6;
+
+$text-color: #666766;
+$title-color: #644a1d;
+$light-bg: #f7f6f2;
+$dark-bg: #0f0f0f;
+$accent-bg: #f1e881;
+
+$black: #644a1d;
+$white: #fff;
+$grey: #666766;
+
+$text-xs: 15px;
+$text-sm: 16px;
+$text-md: 20px;
+$text-lg: 50px;
+$text-xl: 60px;
+
+$titles-font-weight: 700;
+$text-font-weight: 400;
+$link-font-weight: 700;
+$btn-font-weight: 700;
+
+$site-background: $light-bg;
+
+$top-panel-height: 108px;
+
+$defaultTransition: 0.3s ease-in-out;
+
+:export {
+    accentColor: $accent-1;
+}

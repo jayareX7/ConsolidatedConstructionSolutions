@@ -1,0 +1,254 @@
+{
+  "aboutUs": {
+    "title": "Construction industry representing the interests of small and medium-sized building companies",
+    "subtitle": "Who We Are?",
+    "text": "We are resolute in our mission to not only make a difference to the lives of people today but to also leave a legacy for future generations and the planet we live in. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!",
+    "listTitle": "What's in it for me?",
+    "aboutImage1": {
+      "image": "/pages/about/fam3.jpg",
+      "alt": "About Us Image One"
+    },
+    "items": {
+      "listText1": "High performing, low carbon concrete solution",
+      "listText2": "High performing, low carbon concrete solution",
+      "listText3": "High performing, low carbon concrete solution",
+      "listText4": "High performing, low carbon concrete solution",
+      "listText5": "High performing, low carbon concrete solution"
+    },
+    "aboutImage2": {
+      "image": "/pages/about/joy.jpg",
+      "alt": "About Us Image Two"
+    }
+  },
+  "history": {
+    "title": "Company History",
+    "subtitle": "A strong foundation",
+    "slide1": {
+      "image": "/pages/about/history0.jpg",
+      "alt": "History Image One",
+      "year": "1982",
+      "text": "<span>Thomas Willimes starts the company,</span> managing construction of our first office building in Chelsea, Mass."
+    },
+    "slide2": {
+      "image": "/pages/about/history5.jpg",
+      "alt": "History Image Two",
+      "year": "1994",
+      "text": "Our company embraces snowbird status and expands to West Palm Beach—our first office outside New England."
+    },
+    "slide3": {
+      "image": "/pages/about/history1.jpg",
+      "alt": "History Image Six",
+      "year": "2004",
+      "text": "The Career Start program officially launches, recruiting college graduates into robust construction training rotations."
+    },
+    "slide4": {
+      "image": "/pages/about/history6.jpg",
+      "alt": "History Image Three",
+      "year": "2010",
+      "text": "Certified firms to learn our approach, make connections, and grow their businesses."
+    },
+    "slide5": {
+      "image": "/pages/about/history3.jpg",
+      "alt": "History Image Four",
+      "year": "2017",
+      "text": "starts Safer Together, our safety program that emphasizes people and teamwork."
+    },
+    "slide6": {
+      "image": "/pages/about/history4.jpg",
+      "alt": "History Image Five",
+      "year": "2021",
+      "text": "highly collaborative design-build process that is revolutionizing the real estate development lifecycle"
+    }
+  },
+  "team": {
+    "subtitle": "Our Skilled Team",
+    "title": "Meet The Expert Team",
+    "items": [
+      {
+        "image": "/pages/team/fam.jpg",
+        "name": "Isiah Payton",
+        "role": "Painter",
+        "social": [
+          {
+            "link": "www.facebook.com",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "www.twitter.com",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/pages/team/member2.jpg",
+        "name": "Jared Cruz",
+        "role": "Architect",
+        "social": [
+          {
+            "link": "www.facebook.com",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "www.twitter.com",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/pages/team/owner.jpg",
+        "name": "Edward Jeffrey",
+        "role": "Finance Department",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/pages/team/member5.jpg",
+        "name": "Henry Taylor",
+        "role": "Head Railway Construction",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/pages/team/member3.jpg",
+        "name": "Nicholas Larry",
+        "role": "Railway Manager",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/pages/team/member6.jpg",
+        "name": "Stephanie Jones",
+        "role": "Creative Worker",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      },
+      {
+        "image": "/pages/team/member4.jpg",
+        "name": "Erica Scott",
+        "role": "Cheif Railway Construction",
+        "social": [
+          {
+            "link": "https://facebook.com/",
+            "icon": "fa-brands fa-facebook-f",
+            "title": "Facebook"
+          },
+          {
+            "link": "https://twitter.com/",
+            "icon": "fa-brands fa-twitter",
+            "title": "Twitter"
+          }
+        ]
+      }
+    ]
+  },
+  "testimonial": {
+    "subtitle": "Testimonials",
+    "title": "Client’s Reviews",
+    "image": {
+      "url": "/images/clients-images.png",
+      "alt": "Client Images"
+    },
+    "items": [
+      {
+        "name": "Marko Marlee",
+        "role": "Chairman, Building Corp",
+        "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+      },
+      {
+        "name": "Christopher",
+        "role": "Social Worker",
+        "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+      },
+      {
+        "name": "Donald Paul",
+        "role": "Constructor",
+        "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+      },
+      {
+        "name": "Kevin Samuel",
+        "role": "Creative Head",
+        "text": "To my mind, the greatest reward for any renovation project is being able to experience the transformation from beginning to end. I enjoy getting to see how a renovation can go from an idea to a reality and lead to an elevated mood and heightened productivity."
+      }
+    ]
+  },
+  "partners": {
+    "items": [
+      {
+        "image": "/pages/partners/client-1.png",
+        "alt": "img"
+      },
+      {
+        "image": "/pages/partners/client-2.png",
+        "alt": "img"
+      },
+      {
+        "image": "/pages/partners/client-3.png",
+        "alt": "img"
+      },
+      {
+        "image": "/pages/partners/client-4.png",
+        "alt": "img"
+      },
+      {
+        "image": "/pages/partners/client-5.png",
+        "alt": "img"
+      }
+    ]
+  },
+  "CTA": {
+    "title": "Ready to work together?",
+    "description": "You’re looking for a reliable construction partner or you’re looking to take the next step in your career, we want to hear from you!",
+    "image": {
+      "url": "/pages/contact/building-2.png",
+      "alt": "image"
+    },
+    "button": {
+      "link": "/contact",
+      "label": "Build a Project"
+    }
+  }
+}
